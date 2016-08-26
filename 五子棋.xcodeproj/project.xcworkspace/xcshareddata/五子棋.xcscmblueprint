@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a7213cdf-7b08-fa41-8306-955d70646880",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8AD8734-5AC2-4BA6-B55E-B7A845113CD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880" : "TEWorks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "五子棋",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/统计\/15届neegleWorksPlus\/wgj\/五子棋\/五子棋.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/172.30.3.8:1443\/svn\/TEWorks",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7213cdf-7b08-fa41-8306-955d70646880"
+    }
+  ]
+}
