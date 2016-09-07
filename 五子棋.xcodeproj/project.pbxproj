@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7569DFADE1E405B7DA6A40E /* libPods-五子棋.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97BD46CDD52E72B5483CB8B /* libPods-五子棋.a */; };
+		F2637B171D6FE34D00F4BA40 /* GobangView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2637B161D6FE34D00F4BA40 /* GobangView.m */; };
+		F2637B221D70185000F4BA40 /* KWPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F2637B211D70185000F4BA40 /* KWPoint.m */; };
+		F2637B251D701CEE00F4BA40 /* KWAI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2637B241D701CEE00F4BA40 /* KWAI.m */; };
 		F2A396531D6FE2560038ABE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A396521D6FE2560038ABE0 /* main.m */; };
 		F2A396561D6FE2560038ABE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A396551D6FE2560038ABE0 /* AppDelegate.m */; };
 		F2A396591D6FE2560038ABE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A396581D6FE2560038ABE0 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CACBC29CD947A7E6F7046A8 /* Pods-五子棋.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-五子棋.release.xcconfig"; path = "Pods/Target Support Files/Pods-五子棋/Pods-五子棋.release.xcconfig"; sourceTree = "<group>"; };
+		D97BD46CDD52E72B5483CB8B /* libPods-五子棋.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-五子棋.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2637B151D6FE34D00F4BA40 /* GobangView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GobangView.h; sourceTree = "<group>"; };
+		F2637B161D6FE34D00F4BA40 /* GobangView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GobangView.m; sourceTree = "<group>"; };
+		F2637B201D70185000F4BA40 /* KWPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPoint.h; sourceTree = "<group>"; };
+		F2637B211D70185000F4BA40 /* KWPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPoint.m; sourceTree = "<group>"; };
+		F2637B231D701CEE00F4BA40 /* KWAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWAI.h; sourceTree = "<group>"; };
+		F2637B241D701CEE00F4BA40 /* KWAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWAI.m; sourceTree = "<group>"; };
 		F2A3964E1D6FE2560038ABE0 /* 五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A396521D6FE2560038ABE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2A396541D6FE2560038ABE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,7 @@
 		F2A396721D6FE2560038ABE0 /* 五子棋UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A396761D6FE2560038ABE0 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		F2A396781D6FE2560038ABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFA6EFC7EEE77FAD1160851 /* Pods-五子棋.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-五子棋.debug.xcconfig"; path = "Pods/Target Support Files/Pods-五子棋/Pods-五子棋.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7569DFADE1E405B7DA6A40E /* libPods-五子棋.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C33B0FC5B818E3C9D8DFCC33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFA6EFC7EEE77FAD1160851 /* Pods-五子棋.debug.xcconfig */,
+				4CACBC29CD947A7E6F7046A8 /* Pods-五子棋.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E25722796DA4A1013F57434F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97BD46CDD52E72B5483CB8B /* libPods-五子棋.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2637B141D6FE30400F4BA40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2637B151D6FE34D00F4BA40 /* GobangView.h */,
+				F2637B161D6FE34D00F4BA40 /* GobangView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F2637B1E1D6FF69C00F4BA40 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		F2637B1F1D70183600F4BA40 /* suanfa */ = {
+			isa = PBXGroup;
+			children = (
+				F2637B201D70185000F4BA40 /* KWPoint.h */,
+				F2637B211D70185000F4BA40 /* KWPoint.m */,
+				F2637B231D701CEE00F4BA40 /* KWAI.h */,
+				F2637B241D701CEE00F4BA40 /* KWAI.m */,
+			);
+			name = suanfa;
+			sourceTree = "<group>";
+		};
 		F2A396451D6FE2560038ABE0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				F2A3966A1D6FE2560038ABE0 /* 五子棋Tests */,
 				F2A396751D6FE2560038ABE0 /* 五子棋UITests */,
 				F2A3964F1D6FE2560038ABE0 /* Products */,
+				C33B0FC5B818E3C9D8DFCC33 /* Pods */,
+				E25722796DA4A1013F57434F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,9 @@
 		F2A396501D6FE2560038ABE0 /* 五子棋 */ = {
 			isa = PBXGroup;
 			children = (
+				F2637B1F1D70183600F4BA40 /* suanfa */,
+				F2637B1E1D6FF69C00F4BA40 /* Animation */,
+				F2637B141D6FE30400F4BA40 /* Views */,
 				F2A396541D6FE2560038ABE0 /* AppDelegate.h */,
 				F2A396551D6FE2560038ABE0 /* AppDelegate.m */,
 				F2A396571D6FE2560038ABE0 /* ViewController.h */,
@@ -147,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2A3967B1D6FE2560038ABE0 /* Build configuration list for PBXNativeTarget "五子棋" */;
 			buildPhases = (
+				43D17A26751C9BA00CC40AEB /* 📦 Check Pods Manifest.lock */,
 				F2A3964A1D6FE2560038ABE0 /* Sources */,
 				F2A3964B1D6FE2560038ABE0 /* Frameworks */,
 				F2A3964C1D6FE2560038ABE0 /* Resources */,
+				561AD2964B2391D2490CEA44 /* 📦 Embed Pods Frameworks */,
+				E0AEE1865F22CEE81E884119 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +273,7 @@
 				TargetAttributes = {
 					F2A3964D1D6FE2560038ABE0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CZ883JFBX6;
 					};
 					F2A396661D6FE2560038ABE0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -265,11 +332,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43D17A26751C9BA00CC40AEB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		561AD2964B2391D2490CEA44 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-五子棋/Pods-五子棋-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AEE1865F22CEE81E884119 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-五子棋/Pods-五子棋-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2A3964A1D6FE2560038ABE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2637B221D70185000F4BA40 /* KWPoint.m in Sources */,
+				F2637B251D701CEE00F4BA40 /* KWAI.m in Sources */,
+				F2637B171D6FE34D00F4BA40 /* GobangView.m in Sources */,
 				F2A396591D6FE2560038ABE0 /* ViewController.m in Sources */,
 				F2A396561D6FE2560038ABE0 /* AppDelegate.m in Sources */,
 				F2A396531D6FE2560038ABE0 /* main.m in Sources */,
@@ -413,23 +531,35 @@
 		};
 		F2A3967C1D6FE2560038ABE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA6EFC7EEE77FAD1160851 /* Pods-五子棋.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "五子棋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenji.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F2A3967D1D6FE2560038ABE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CACBC29CD947A7E6F7046A8 /* Pods-五子棋.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "五子棋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenji.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +628,7 @@
 				F2A3967D1D6FE2560038ABE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A3967E1D6FE2560038ABE0 /* Build configuration list for PBXNativeTarget "五子棋Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +637,7 @@
 				F2A396801D6FE2560038ABE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A396811D6FE2560038ABE0 /* Build configuration list for PBXNativeTarget "五子棋UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +646,7 @@
 				F2A396831D6FE2560038ABE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

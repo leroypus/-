@@ -1,24 +1,35 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a7213cdf-7b08-fa41-8306-955d70646880++4217",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880++4217" : {
+
+    },
     "a7213cdf-7b08-fa41-8306-955d70646880" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880++4217" : 0,
     "a7213cdf-7b08-fa41-8306-955d70646880" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8AD8734-5AC2-4BA6-B55E-B7A845113CD9",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "54EE56F4-E2DC-4B58-967F-2FF125275609",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a7213cdf-7b08-fa41-8306-955d70646880++4217" : "%E4%BA%94%E5%AD%90%E6%A3%8B\/",
     "a7213cdf-7b08-fa41-8306-955d70646880" : "..\/..\/..\/.."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "五子棋",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "五子棋.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "五子棋.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/172.30.3.8:1443\/svn\/TEWorks",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7213cdf-7b08-fa41-8306-955d70646880"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/172.30.3.8:1443\/svn\/TEWorks",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7213cdf-7b08-fa41-8306-955d70646880++4217"
     }
   ]
 }
