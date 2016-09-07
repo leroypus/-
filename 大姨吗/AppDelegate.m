@@ -7,8 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "MainViewController.h"
+#import "CalenderViewController.h"
+#import "LoveBuyViewController.h"
+#import "SisterComponentViewController.h"
+#import "MyViewController.h"
+#import "MainTabBarController.h"
+
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UIImageView *maskView;
+@property (nonatomic, strong) MainViewController *mainViewController;
+@property (nonatomic, strong) CalenderViewController *calenderViewController;
+@property (nonatomic, strong) LoveBuyViewController *loveBuyViewController;
+@property (nonatomic, strong) SisterComponentViewController *sisterComponentViewController;
+@property (nonatomic, strong) MyViewController *myViewController;
+@property (nonatomic, strong) ViewController *viewController;
+@property (nonatomic, strong) UITabBarController *tabBarController;
 
 @end
 
@@ -17,6 +34,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+//    self.maskView = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.maskView.image = [UIImage imageNamed:@"launch"];
+//    self.maskView.contentMode = UIViewContentModeScaleAspectFill;
+//    self.viewController = [[ViewController alloc]init];
+//
+//    [self.window addSubview:self.maskView];
+//    self.maskView.userInteractionEnabled = YES;
+    
+    
+    self.mainViewController = [[MainViewController alloc]init];
+    self.calenderViewController = [[CalenderViewController alloc]init];
+    self.loveBuyViewController = [[LoveBuyViewController alloc]init];
+    self.sisterComponentViewController = [[SisterComponentViewController alloc]init];
+    self.myViewController = [[MyViewController alloc]init];
+    
+    
+    self.tabBarController = [[UITabBarController alloc]init];
+    self.tabBarController.viewControllers = @[self.mainViewController, self.calenderViewController, self.loveBuyViewController, self.sisterComponentViewController, self.myViewController];
+//    UITabBar *tabBar = [self.tabBarController tabBar];
+
+    
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 400, 49)];
+    backView.backgroundColor = [UIColor blackColor];
+    [self.tabBarController.tabBar insertSubview:backView atIndex:0];
+//    self.tabBarController.tabBar.opaque = YES;
+//    [tabBar setBackgroundColor:[UIColor blackColor]];
+    
+    
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyWindow];
     return YES;
 }
 

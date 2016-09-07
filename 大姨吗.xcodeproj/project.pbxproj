@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D18D71DCCD29198AE33677 /* libPods-大姨吗.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C35135B04721C844D8F1E8 /* libPods-大姨吗.a */; };
+		F2334D371D7D16620063A6D9 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2334D361D7D16620063A6D9 /* CollectionReusableView.m */; };
+		F2570A661D7FA16800273A56 /* CalendarVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2570A651D7FA16800273A56 /* CalendarVIewCell.m */; };
+		F25946951D7D1A30001D5DB0 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25946941D7D1A30001D5DB0 /* CollectionViewCell.m */; };
+		F2663E0B1D797ADE00C1A9C3 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2663E0A1D797ADE00C1A9C3 /* 首页@2x.png */; };
+		F2663E0E1D7D071700C1A9C3 /* MyViewCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2663E0D1D7D071700C1A9C3 /* MyViewCollectionViewController.m */; };
 		F26EC01C1D7912850086517B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EC01B1D7912850086517B /* main.m */; };
 		F26EC01F1D7912850086517B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EC01E1D7912850086517B /* AppDelegate.m */; };
 		F26EC0221D7912850086517B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EC0211D7912850086517B /* ViewController.m */; };
@@ -15,6 +21,15 @@
 		F26EC02A1D7912850086517B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26EC0281D7912850086517B /* LaunchScreen.storyboard */; };
 		F26EC0351D7912850086517B /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EC0341D7912850086517B /* ___Tests.m */; };
 		F26EC0401D7912850086517B /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26EC03F1D7912850086517B /* ___UITests.m */; };
+		F270611E1D792035007D069B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F270611D1D792035007D069B /* MainViewController.m */; };
+		F27061211D792047007D069B /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061201D792047007D069B /* CalenderViewController.m */; };
+		F27061241D792059007D069B /* LoveBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061231D792059007D069B /* LoveBuyViewController.m */; };
+		F27061271D792071007D069B /* SisterComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061261D792071007D069B /* SisterComponentViewController.m */; };
+		F270612A1D79207F007D069B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061291D79207F007D069B /* MyViewController.m */; };
+		F270612E1D793447007D069B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F270612D1D793447007D069B /* MainTabBarController.m */; };
+		F27061311D793662007D069B /* MainNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061301D793662007D069B /* MainNaviViewController.m */; };
+		F27061341D793CF8007D069B /* MainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061331D793CF8007D069B /* MainCellViewController.m */; };
+		F27061391D796649007D069B /* MyViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27061381D796649007D069B /* MyViewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152A520D947059520A1E7FAA /* Pods-大姨吗.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-大姨吗.debug.xcconfig"; path = "Pods/Target Support Files/Pods-大姨吗/Pods-大姨吗.debug.xcconfig"; sourceTree = "<group>"; };
+		477791FF044093091CDDB87D /* Pods-大姨吗.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-大姨吗.release.xcconfig"; path = "Pods/Target Support Files/Pods-大姨吗/Pods-大姨吗.release.xcconfig"; sourceTree = "<group>"; };
+		78C35135B04721C844D8F1E8 /* libPods-大姨吗.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-大姨吗.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2334D351D7D16620063A6D9 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		F2334D361D7D16620063A6D9 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		F2570A641D7FA16800273A56 /* CalendarVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarVIewCell.h; sourceTree = "<group>"; };
+		F2570A651D7FA16800273A56 /* CalendarVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarVIewCell.m; sourceTree = "<group>"; };
+		F25946931D7D1A30001D5DB0 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		F25946941D7D1A30001D5DB0 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		F2663E0A1D797ADE00C1A9C3 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		F2663E0C1D7D071700C1A9C3 /* MyViewCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewCollectionViewController.h; sourceTree = "<group>"; };
+		F2663E0D1D7D071700C1A9C3 /* MyViewCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewCollectionViewController.m; sourceTree = "<group>"; };
 		F26EC0171D7912850086517B /* 大姨吗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大姨吗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26EC01B1D7912850086517B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F26EC01D1D7912850086517B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,25 @@
 		F26EC03B1D7912850086517B /* 大姨吗UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "大姨吗UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26EC03F1D7912850086517B /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		F26EC0411D7912850086517B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F270611C1D792035007D069B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F270611D1D792035007D069B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F270611F1D792047007D069B /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		F27061201D792047007D069B /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
+		F27061221D792059007D069B /* LoveBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveBuyViewController.h; sourceTree = "<group>"; };
+		F27061231D792059007D069B /* LoveBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveBuyViewController.m; sourceTree = "<group>"; };
+		F27061251D792071007D069B /* SisterComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SisterComponentViewController.h; sourceTree = "<group>"; };
+		F27061261D792071007D069B /* SisterComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SisterComponentViewController.m; sourceTree = "<group>"; };
+		F27061281D79207F007D069B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		F27061291D79207F007D069B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		F270612C1D793447007D069B /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		F270612D1D793447007D069B /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		F270612F1D793662007D069B /* MainNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNaviViewController.h; sourceTree = "<group>"; };
+		F27061301D793662007D069B /* MainNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNaviViewController.m; sourceTree = "<group>"; };
+		F27061321D793CF8007D069B /* MainCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCellViewController.h; sourceTree = "<group>"; };
+		F27061331D793CF8007D069B /* MainCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCellViewController.m; sourceTree = "<group>"; };
+		F27061361D794660007D069B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F27061371D796649007D069B /* MyViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewTableViewController.h; sourceTree = "<group>"; };
+		F27061381D796649007D069B /* MyViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D18D71DCCD29198AE33677 /* libPods-大姨吗.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AAF8C6C95607F39203D7000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C35135B04721C844D8F1E8 /* libPods-大姨吗.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D33F72F309A707889AE9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				152A520D947059520A1E7FAA /* Pods-大姨吗.debug.xcconfig */,
+				477791FF044093091CDDB87D /* Pods-大姨吗.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F26EC00E1D7912840086517B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +149,8 @@
 				F26EC0331D7912850086517B /* 大姨吗Tests */,
 				F26EC03E1D7912850086517B /* 大姨吗UITests */,
 				F26EC0181D7912850086517B /* Products */,
+				A9D33F72F309A707889AE9E2 /* Pods */,
+				4AAF8C6C95607F39203D7000 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +167,9 @@
 		F26EC0191D7912850086517B /* 大姨吗 */ = {
 			isa = PBXGroup;
 			children = (
+				F2663E0A1D797ADE00C1A9C3 /* 首页@2x.png */,
+				F27061351D793E5C007D069B /* Model */,
+				F27061151D791D1C007D069B /* views */,
 				F26EC01D1D7912850086517B /* AppDelegate.h */,
 				F26EC01E1D7912850086517B /* AppDelegate.m */,
 				F26EC0201D7912850086517B /* ViewController.h */,
@@ -110,6 +179,7 @@
 				F26EC0281D7912850086517B /* LaunchScreen.storyboard */,
 				F26EC02B1D7912850086517B /* Info.plist */,
 				F26EC01A1D7912850086517B /* Supporting Files */,
+				F27061361D794660007D069B /* PrefixHeader.pch */,
 			);
 			path = "大姨吗";
 			sourceTree = "<group>";
@@ -140,6 +210,94 @@
 			path = "大姨吗UITests";
 			sourceTree = "<group>";
 		};
+		F27061151D791D1C007D069B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F270612B1D793430007D069B /* tabBar */,
+				F270611B1D792020007D069B /* 我的 */,
+				F270611A1D792019007D069B /* 姐妹说 */,
+				F27061191D79200F007D069B /* 姨妈爱买 */,
+				F27061181D792006007D069B /* 日历 */,
+				F27061171D791FFF007D069B /* 首页 */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		F27061171D791FFF007D069B /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				F270611C1D792035007D069B /* MainViewController.h */,
+				F270611D1D792035007D069B /* MainViewController.m */,
+				F27061321D793CF8007D069B /* MainCellViewController.h */,
+				F27061331D793CF8007D069B /* MainCellViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		F27061181D792006007D069B /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				F270611F1D792047007D069B /* CalenderViewController.h */,
+				F27061201D792047007D069B /* CalenderViewController.m */,
+				F2570A641D7FA16800273A56 /* CalendarVIewCell.h */,
+				F2570A651D7FA16800273A56 /* CalendarVIewCell.m */,
+			);
+			name = "日历";
+			sourceTree = "<group>";
+		};
+		F27061191D79200F007D069B /* 姨妈爱买 */ = {
+			isa = PBXGroup;
+			children = (
+				F27061221D792059007D069B /* LoveBuyViewController.h */,
+				F27061231D792059007D069B /* LoveBuyViewController.m */,
+			);
+			name = "姨妈爱买";
+			sourceTree = "<group>";
+		};
+		F270611A1D792019007D069B /* 姐妹说 */ = {
+			isa = PBXGroup;
+			children = (
+				F27061251D792071007D069B /* SisterComponentViewController.h */,
+				F27061261D792071007D069B /* SisterComponentViewController.m */,
+			);
+			name = "姐妹说";
+			sourceTree = "<group>";
+		};
+		F270611B1D792020007D069B /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				F27061281D79207F007D069B /* MyViewController.h */,
+				F27061291D79207F007D069B /* MyViewController.m */,
+				F27061371D796649007D069B /* MyViewTableViewController.h */,
+				F27061381D796649007D069B /* MyViewTableViewController.m */,
+				F2663E0C1D7D071700C1A9C3 /* MyViewCollectionViewController.h */,
+				F2663E0D1D7D071700C1A9C3 /* MyViewCollectionViewController.m */,
+				F2334D351D7D16620063A6D9 /* CollectionReusableView.h */,
+				F2334D361D7D16620063A6D9 /* CollectionReusableView.m */,
+				F25946931D7D1A30001D5DB0 /* CollectionViewCell.h */,
+				F25946941D7D1A30001D5DB0 /* CollectionViewCell.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		F270612B1D793430007D069B /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F270612C1D793447007D069B /* MainTabBarController.h */,
+				F270612D1D793447007D069B /* MainTabBarController.m */,
+				F270612F1D793662007D069B /* MainNaviViewController.h */,
+				F27061301D793662007D069B /* MainNaviViewController.m */,
+			);
+			name = tabBar;
+			sourceTree = "<group>";
+		};
+		F27061351D793E5C007D069B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F26EC0441D7912850086517B /* Build configuration list for PBXNativeTarget "大姨吗" */;
 			buildPhases = (
+				D18751FEEBFE1AF835EF57E8 /* 📦 Check Pods Manifest.lock */,
 				F26EC0131D7912850086517B /* Sources */,
 				F26EC0141D7912850086517B /* Frameworks */,
 				F26EC0151D7912850086517B /* Resources */,
+				9559229162EC0005A57F4F12 /* 📦 Embed Pods Frameworks */,
+				B53C958DCD0F4142A8EB1E63 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26EC02A1D7912850086517B /* LaunchScreen.storyboard in Resources */,
+				F2663E0B1D797ADE00C1A9C3 /* 首页@2x.png in Resources */,
 				F26EC0271D7912850086517B /* Assets.xcassets in Resources */,
 				F26EC0251D7912850086517B /* Main.storyboard in Resources */,
 			);
@@ -265,14 +427,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9559229162EC0005A57F4F12 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-大姨吗/Pods-大姨吗-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53C958DCD0F4142A8EB1E63 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-大姨吗/Pods-大姨吗-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18751FEEBFE1AF835EF57E8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F26EC0131D7912850086517B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27061211D792047007D069B /* CalenderViewController.m in Sources */,
 				F26EC0221D7912850086517B /* ViewController.m in Sources */,
+				F2570A661D7FA16800273A56 /* CalendarVIewCell.m in Sources */,
+				F27061391D796649007D069B /* MyViewTableViewController.m in Sources */,
+				F270612E1D793447007D069B /* MainTabBarController.m in Sources */,
+				F27061311D793662007D069B /* MainNaviViewController.m in Sources */,
+				F270612A1D79207F007D069B /* MyViewController.m in Sources */,
+				F25946951D7D1A30001D5DB0 /* CollectionViewCell.m in Sources */,
+				F27061341D793CF8007D069B /* MainCellViewController.m in Sources */,
 				F26EC01F1D7912850086517B /* AppDelegate.m in Sources */,
 				F26EC01C1D7912850086517B /* main.m in Sources */,
+				F27061271D792071007D069B /* SisterComponentViewController.m in Sources */,
+				F2663E0E1D7D071700C1A9C3 /* MyViewCollectionViewController.m in Sources */,
+				F270611E1D792035007D069B /* MainViewController.m in Sources */,
+				F27061241D792059007D069B /* LoveBuyViewController.m in Sources */,
+				F2334D371D7D16620063A6D9 /* CollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +636,7 @@
 		};
 		F26EC0451D7912850086517B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152A520D947059520A1E7FAA /* Pods-大姨吗.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "大姨吗/Info.plist";
@@ -424,6 +648,7 @@
 		};
 		F26EC0461D7912850086517B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477791FF044093091CDDB87D /* Pods-大姨吗.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "大姨吗/Info.plist";
@@ -498,6 +723,7 @@
 				F26EC0461D7912850086517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F26EC0471D7912850086517B /* Build configuration list for PBXNativeTarget "大姨吗Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +732,7 @@
 				F26EC0491D7912850086517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F26EC04A1D7912850086517B /* Build configuration list for PBXNativeTarget "大姨吗UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +741,7 @@
 				F26EC04C1D7912850086517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

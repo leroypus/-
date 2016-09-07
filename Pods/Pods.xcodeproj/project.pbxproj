@@ -1,0 +1,1779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0112EA56835F63CC622818B586ABFD46 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDE6C45174C5ED6D11B5D585A3648A62 /* POPCGUtils.mm */; };
+		011D5AF259AEE390AF39E09765C6973A /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1EA8AFE12EA3BB351E15BE633D87C3E /* POPSpringAnimation.mm */; };
+		016BA4BE0A42F484470837471F132D17 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7963A250C0432D71FB8ABA0A3C7F1A07 /* POPAnimationExtras.mm */; };
+		04A76709EE5BB3A327A51BCC4C44F45B /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85FB3427B61A10D73B8F7FAA338EAC83 /* POPPropertyAnimation.mm */; };
+		0528C3367FCA3B4AAEDC555C96520FD3 /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D017B8BFC71D3C1512AA4A02B511F5 /* JTCalendarDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065470DF652C9BD61FC446FA957D39B3 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA67453F939169C7AD4172B85F70948A /* POPBasicAnimation.mm */; };
+		08D26C7366BE7B78FBB56C514582B337 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41760605F5CECAE5B74D277007A3FA84 /* POPCustomAnimation.mm */; };
+		094FD09F81C6852B92D991DE2DA4EA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		09EF9593BEFE8076642BDAF465470F89 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C049B1AC4EC8B4958C7F0D88B0487867 /* JTCalendarSettings.m */; };
+		0E330EE7DC1E1266DAC29510C553CF55 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E9083583811DF9E70C2BB12F1FD43 /* JTCalendarManager.m */; };
+		0FB0AF668D6FCCACCD066E3C19618288 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79705A01B3C4F2E5567D220649C100 /* JTVerticalCalendarView.m */; };
+		10CD137E4CDFCD5819F196C6FD3485D4 /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898669D6FE6985441648A05DA132A7A6 /* JTHorizontalCalendarView.m */; };
+		18CE794C4F6404558C6DD50ECA8DFE17 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 871C40D3A26D785F28493DB27B95AFDE /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1147AEC7E665BED21D80587C63EA71 /* JTCalendarWeekDay.h in Headers */ = {isa = PBXBuildFile; fileRef = FB56FAD6E90939ED50A60317ADACA63B /* JTCalendarWeekDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD35CC05851BAF9728EE2CFFC06FA99 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 6698414CE835EFC0255F1A97D580D17B /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1FE08B1A94FCC6FA9ABE61581F243A /* JTCalendarPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB86D751096C11F2284A7E8F41FBA45 /* JTCalendarPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F59D0D8082652DAA96E81631D4D6A27 /* MenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E10F6FFF53EE194A3D52A04BB36471 /* MenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218DABA99F5B0BC99C79AF7EDBFC9350 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8424039170F1E8EF7659168AE155EE42 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2905381350CEFFBFFA9BC8B5D027F190 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7465DE5D29E8719CC4427E9EBA8DA9 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2979E54C4AFD27076576E82ADEED2F00 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D2392C44657BB76A4675DEF4B04AEA /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B31D746876AE2196F4A18E2D66406D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		2EC2BC3FC08E311D9BB80E9084864AAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		329D0A799D9DD2AB0ACDBAD7CC206215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		331718BFB4A91CFFE026492905231562 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED7077F47E4D26D0B05E28998EA00DB /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335DCBC17D2469F228020EF6C7B41F7C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A82BE0DE1FBB109DF746C0CA76679684 /* MASConstraintMaker.m */; };
+		34EDAC7F9B5C99A250D2811110CB8004 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8A3F8D336530E56A654F84595E8F86 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D203269E2B7CA80C41446143684030 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7F47B40DBD49409543C4B8A43D0D30 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		382C4C19629155EDA7D0186475BCC04A /* JTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42702F47F704EEDCA1176D12E80B6165 /* JTCalendar-dummy.m */; };
+		384BE5632E93194EC0729943EA3B0146 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFF1FDB872D153CABD061AAE88F77AE /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B0937526EF2C2D45E292C73CD7EBC42 /* JTCalendarDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5BC3421A073815842241224BEC4A2E /* JTCalendarDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCE213EAE119627A2FB7D4C6603847F /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = A42819D3BEBACFD0183CEEB98E4F7938 /* POPVector.mm */; };
+		3E0FD51A1522DEA316D2AC75704460D0 /* JTVerticalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 544054DB145E38D5AFDC51631DB775AB /* JTVerticalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F63C119F95A6735AE627BBB1BEBC4B1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A822EAC547BDD91D158E6A5C2C1BD224 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41638B8420EBA60388C0E266A3F8823F /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = B24AFB6A3E0A9BD30A50192E2ED72E94 /* POPAnimationRuntime.mm */; };
+		429BE03D69A2E7DEFB44DE2B7D14A60F /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB975BAF972D8B4DDFB69161E3E544D /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		432BD50F1E699EDF2EA007E850FFCEF7 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BCECAD77D2A4F5858DA666541B1066 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485A4943E494E43A54B5A8AE4988D774 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94D37943C3FCC7A45A35303F7FBAF0E5 /* POPAnimation.mm */; };
+		49D0CE58718C7F01B9E2DB94E0632709 /* XHRealTimeBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8A40074FB6DE0DDCB64F72BF8995C /* XHRealTimeBlur.m */; };
+		4BF7BEF815047A49EA9340352FE0404C /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = A30E4FF272B23ABB8599EDD03C24BF83 /* POPLayerExtras.mm */; };
+		4DAE4CFA529CF3FF5D27773E81A54981 /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 15919D99E3539101047B9288801A493A /* HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCEE102AAEF72CE38E475188BA7CE47 /* JTCalendarPage.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB0412359FA89400506E6B908B0B62 /* JTCalendarPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6C4442DAC154193E336AEF8B9D58DB /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F7B0ACFC3D17E1254E841F28EDAC2 /* PopMenu.m */; };
+		4F3FFAA4C564072E466012049CDA88D0 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 761E7A76032487ABEE9E5775FDB3EE59 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FC25108739F9E0C7259776D97A1336A /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D3D33F8CD07E2F331BE271AB6C9E3 /* JTCalendarWeekView.m */; };
+		50B5320A8060BAFF68DEA0AEAD09DDE0 /* JTCalendarWeekDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A66A01063F5DCF15FB1896E845376A /* JTCalendarWeekDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DC668B0B68A66B0FA6187EAB904AF2 /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CADD8418BBC9E87D362210418E268 /* JTCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5457FCC2699281B5A4203BA1559F593F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A681F2C123D93FA451E84263D4E0882F /* NSArray+MASAdditions.m */; };
+		54DA2D9C9ED1958E8695967CE81E687B /* PopMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFD2C0E617445FC29357FB539447F5C /* PopMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56817EDF817762843F04249DB39FBEDC /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DD1BB8972DF2A086448ABFE34B23C5 /* JTCalendarMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E57075B7E9918AAE1FC3C152BB4124 /* JTHorizontalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB16A674A1E9DA87A0EA20EBE5009653 /* JTHorizontalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57547311CC6B5E757E2FDE2411E2B112 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0663F8BE4D3BB57AA35AB5D5E262E /* pop-dummy.m */; };
+		58F6DDC11BEADB46173AFDFE4C69B8ED /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 0077C868B9F687575371EDFC8A8B34F2 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5939FA30BD11B334E75DE208F89482C2 /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BC3BC826D5ED4EFB34EE6D71E9696E /* JTCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A193626FA4399C41343A5E5F5D36678 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B2EB4F5D2A6D0247267AE6EA26A901 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A26458DBAD0A8C81F3884FE73084BBC /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3860594932ADDFC71049A02270DE723A /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C378E9457D6A5632634E072AD14CECD /* JTCalendarWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FA823DA05310612D06961F69D9B703 /* JTCalendarWeek.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E25506DB2B178EF60536B0CC7EC61DE /* MenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D3573B6C15587E420B7C5160099BE13D /* MenuButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F27D5C9FA93870917B0779A9D11557A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		6057ADC1D9A1B64A7CDA191C0CE7F147 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA0EFF152EE48A604D6EA112ACB637A /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		615D57F2D5026472A990CBDA9BF1AB72 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E052A2B1FDC65BB6388C5491EE495 /* HexColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		65D13D4E0D034836C35C629BED24DB25 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8914FC316B338C395D6D41BB3670CF58 /* JTDateHelper.m */; };
+		67CF939ADF7F27345C861D28E57EB29E /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68B0DAB538580E1BA4BFC25FC04537 /* JTCalendarMenuView.m */; };
+		69E822A69DC1732CC50AAB95BF7F8C15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		6D797980E69D19629DC395537E245912 /* JTCalendarScrollManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A826E784608C645FE15219BEB5A5A9 /* JTCalendarScrollManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DED9EA75A6DD1D52B833BF177B47A85 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 057D38E251E719C880A1040AF09C64BF /* POPDecayAnimation.mm */; };
+		71C0D0094A799BC387C6F579826349EE /* JTContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CCB55F0289F13556D305C877A1C229 /* JTContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78108C0C0349E286C4DBD1F0F8158820 /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1634ACCC0F5FF8E5C9A69B7506B916FD /* JTCalendarScrollManager.m */; };
+		7923E8C6CD9ECDBFEE167D02EC378556 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FBC70408AB4A204A0D72800F0CDD2 /* MenuButton.m */; };
+		804A0C2E9BE751C02806978129D2367F /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1304829FFB5B3CD8B6A0F352F63BA900 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81403CAF6C4C1D3DC8B199289C3A6F59 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC612F41D32EC5A2D4F2B2F16677E3 /* View+MASAdditions.m */; };
+		81599471BAB0420D54E1ADF8507A5113 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F7E101B85258C86A5B63F16D8B385A /* Masonry-dummy.m */; };
+		842BB580F3AE6782E0A79CA57A047E61 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 4013C72CD0A3290C6A7E3D292238FFC7 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A33D486B9C51FCBD8653FD28A53F09 /* JTCalendarDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E07EAA2F44A5AAB26320554F6F04D312 /* JTCalendarDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B75446C2C6FA3166BAF10D6A897963 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C51FE5C1E5A386986B9E7AA52E9B98 /* UIImage+ImageWithColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C84F597A5328F58E6E8EAF108C7AC2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		8DDDA12A4DB4B647F2F15ADA76E25677 /* JTCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = C6428ACC31B19E8B9BF0D1E8A2E2C3DA /* JTCalendarSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF77D306A27B7C3A03897342C067C8C /* UIImage+ImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = DC72E7BCC9990ECB42E1956E233B9654 /* UIImage+ImageWithColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912A52ABB5A131B6E3A1C3418EE87D8A /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 0556DA5B936A47994A8C101B63523BA5 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9205037BA8C22574B33FC96C5EA829A3 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC5A520E1AE6D9882BC778732BC26EA /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F4B9D73375073E0F8BFA2E8B35F4C2 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCC3A937A3414CBA3FA32A584A7734F /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9444DDB7F00236787CE479C8D36E9B76 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6507F5B2CBDF43C91A2ED8D5F6B60681 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99253DC7829CA8D9874F0E0AA7A9AE2F /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E418CF65DB3985BFD2BFAFCF4A032DF8 /* JTCalendarDayView.m */; };
+		99D8C610BC84BE231C5D3D280F3B12AF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EA0B38401D97F843DF53671247B9E8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AAC689451D0C94BBCA059715356612C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		9CE52A1EAB83A08A4B9404422CF0F557 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = C71A122E3CB039E8977C29811A38028B /* POPAnimator.mm */; };
+		A217E0575EBA9131D44F813ED46CB202 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7CE13FB63482B1C8472D75EC91C1A3 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A44AF130E4C5313CD193D9BF68853026 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E2E6FC1FAE6A48332ED68F5958B8A /* MASViewAttribute.m */; };
+		A54F14447F9A26EEBBC08FAD71F60D05 /* JTCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B470ED0D21B7C8E5F0922AFDA697CE /* JTCalendarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61D96D89F1DE6FCE162C38DB51C22F3 /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA43968D4E22214A4E76095C4A2D1A06 /* JTCalendarPageView.m */; };
+		A7D31BD1F3AD4ED4612467FAD332F388 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5098CFF48EF3FCB4B499AE55021C70F0 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA41C6AD136CA0438F9924E41334E9DE /* JTMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A6477C8651BE2122362851FE5CB429 /* JTMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC2EA392397A55DB230E3E03B5DC02CA /* PopMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92790CDA5E641EB63DFEEE2506AE84EC /* PopMenu-dummy.m */; };
+		AD51C0E89F3871756BBFB6CD3781231E /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51775F1FBE6D85A6350F7FB33F02CFCB /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE51C8014C0BD13EE48221C04C234832 /* GlowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA653A4E7A2A4F94E11C68CCF2598DCB /* GlowImageView.m */; };
+		AE68768EBDC1DBDD5569AFB0D90506D3 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEAE6B7F3B88A226402593298B9367 /* MenuItem.m */; };
+		AF4E7187E09A5AF3A0758991203153DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		AF62B956405F7734F5A9B8F3FD4B1B96 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E87B4708905F6B29D76422EBD1015C99 /* ViewController+MASAdditions.m */; };
+		B156B6156AD56216B48A15118520BC24 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F4CD56F05F3DCF2D6E1DFFEAB2E1C9 /* HexColors-dummy.m */; };
+		B2B7C90BA9C4DBD9851C75AC801B0E8E /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC99D4651E2A7EF33F1F236FFF7A3A5 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B463DDA7F521FB25F08F8F2C0FE05EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		B5817B9F81DF17205D61B04E3DB027D9 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B44381B53205D09B4424634F24033D4 /* POPAnimationTracer.mm */; };
+		B82865390A692DAE0EED0DBAE6E62FE3 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ADF2E9A0E519CE8D072344361D68D3 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC14C43BE95D67CFC3239C335DF32649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		BCD4B362C6194513150915437754E2D4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 784DEACFF8E3B92F431E9DC6C1B4A13C /* MASCompositeConstraint.m */; };
+		BDD210D7537DD15CFE59AE126005E5F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5859F7F16E1F0AB96A1C0B28A2DC9 /* MASLayoutConstraint.m */; };
+		BE024118D329F8F566BD1811A1DC16CB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5D440956A8D71493C79FBAC8D7C7D /* MASConstraint.m */; };
+		C1EF819A9095EF1D18FF1BAEBCA59551 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9FB5CFC966AD4442C33ABF06BA95C /* POPAnimatableProperty.mm */; };
+		C6996690F194FAB85466364F91717F92 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43F479A3CA5C08F117B0C840805045DB /* POPAnimationEvent.mm */; };
+		C6EE194D232E9FE87097C0F1DF91B9FA /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E59B97B3C0A7A61500752A3FECEBC9 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A68641A6946885A5884955838B7DFF /* JTCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272B403D263FF91D64C206977344CC5 /* JTCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D230A2FD796DA2A942DDD18CAF86B5 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFC736922061F23A0BDFFEF0B4E71A5 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A5566B2E3A6F134090E45C392915E9 /* GlowImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDB11484B2340C7A74F775A70F1586A /* GlowImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF60F77C44D03B054869ADA49488706D /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0275B994A941D8309E59F33233DC42 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0D1D8260732EFA47EA8F3F6DFFA518F /* JTDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F132132BDF8C2C3ED1CD5561E4A663 /* JTDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25D08AE4031DD37DC89B669E7D54ABD /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E22A72788E51777502F68A01AB0094 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3D29E390B4B407CCD220B4F0842AD14 /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A8F3B7B6C5D97B65A3E2166086945 /* JTCalendarDelegateManager.m */; };
+		D3D9F12613E23AD64C1FA5F7081A3668 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC929976FB9C85F16B42BAB91DA1E69 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D519016691DC35125707B2E4AFA3C267 /* UIImage+ImageWithColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9943346369F75A0539A88D6F8145705F /* UIImage+ImageWithColor-dummy.m */; };
+		D6F0906790DC417E0AF2213B75B4CAE9 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ABFBB1EC6750FFE7DA4FDF0F7BC9FE /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D761899C727A8EC776B6004F74EA33DB /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = B892C9CF053F5F37969D4ED8EDD7863D /* POPMath.mm */; };
+		DD1D07B68EDC0096A85EDF8B6AAADAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		DD1F717B0527C71229B3339324E35E55 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E9C01D12DC9CBAEF3FB6B549EE5E86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD2CDFDB039A08C3F4743278311ECE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		DE31B168D9197213CEB7B90E3ADEB4CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		DFDD97C5C253B7244DFA86DC572BA73D /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4850E83751A16F95B13D8CBB1D55C596 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E07157F2DB166BFE7973F1743E896E16 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BF709EECB60E6ACA8543D568C2D150 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08EAD8A442B1ADD2F06019106030FEC /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 36545B94C1B0B915947FD07EB0A286C5 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E245C1FF4EC5B7DAE11EE28C93253FDF /* XHRealTimeBlur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA055A3D3FDE1D046670B95E12A90554 /* XHRealTimeBlur-dummy.m */; };
+		E60FA6F58E88164202F913B38486B4B3 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FECF06723BBF95181B57DE8D42A63F /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6B49FBCE3957DB67F691ACCC4CAF4BE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EA145E270EA201F7A0E3C9765B3E21 /* MASViewConstraint.m */; };
+		E879FFF9CAAE64B4438DC1FF2519FA91 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = F7C563F85083A2CAC84E68924DC2326B /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA293C936293E277AAE9E7A5BB711F97 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DF26F6A7B6959BA9FF6A8CB5B5DC1F2F /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A683C4DDF059DBA42BEAF8A971D25B88 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB244A1717AE69784B9B2E0E45EFED77 /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7CA505F8F57E7A1D25B4C92A97EF0 /* JTCalendarWeekDayView.m */; };
+		EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B09A78DE30F3FD45E636D8F361E1CFF7 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0671844B1CE4FA936C4E149406D006E /* XHRealTimeBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA1D92C0F5B8B05B18812068E98FF95 /* XHRealTimeBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1141356137CC557E25AA95B83962F6B /* Pods-大姨吗-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4AA46927CDC84ACCDC5844C1CF942 /* Pods-大姨吗-dummy.m */; };
+		F2C6C1453B5DFD7CC72AEB5641BAB06F /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F0106AA81E6D4C79DD7274B4EC91DC /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F490CEF6407392E49F27713D6FC8F925 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E9B58B6549538F1BA4A66305BB688C /* TransformationMatrix.cpp */; };
+		F96BB1E28F71B4574777C7B868F2100B /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DAAB97E63B2F80F70E5EAFE0126B39 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99EDC56FA331B95A857D47D9EC2D308 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 624663E7355245075121BF0C607970D3 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD39EBE3398E1A99965AC003B273450D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4F9675289836229B18C239B3FBFBE2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF682E8B083BAEBBDF38C52D89D45E37 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F67C82F100188DC3FA1B6541A7C5FB6 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8247C792CFF5385EF39AD9F9D33D0B /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9874390CEC87F8B4037F1EE80D908C08 /* POPGeometry.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090D833DC0D51234878F76616F64DC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9B55C4804E23F9345A7D403AFBF1D5;
+			remoteInfo = pop;
+		};
+		548A3EA07D1329B5CB0ECBD3D0529E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EF397B95762DDB254C71DDCB4B1381;
+			remoteInfo = HexColors;
+		};
+		55A1D022D8E26013369B426CDBF03B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60ADECECFFD40E279B344B17031AD76;
+			remoteInfo = "UIImage+ImageWithColor";
+		};
+		7627B22F4910FC244A302B4FDE52A411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB478DC5A44CF26B12D076D686C06EF;
+			remoteInfo = XHRealTimeBlur;
+		};
+		8889C5CA0C9D13580C452A8552E9D3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53480ED0BE09FF49E34B1702D485CAAB;
+			remoteInfo = Masonry;
+		};
+		928DA2B08BF6A3C176FD29FFB7EB0B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9B55C4804E23F9345A7D403AFBF1D5;
+			remoteInfo = pop;
+		};
+		BDBDCF469BB966F7667C88E5D205DB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AD7E342840A1BEA026D1D3A2D9C1A7;
+			remoteInfo = JTCalendar;
+		};
+		F856B5E63641483D1E1404CC4C0AF9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDAEDE217E2586A4BFF0AB184E4E63D;
+			remoteInfo = PopMenu;
+		};
+		F8AB5E6240006E185C3D4175147CE7FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB478DC5A44CF26B12D076D686C06EF;
+			remoteInfo = XHRealTimeBlur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0077C868B9F687575371EDFC8A8B34F2 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		016147A9038FB83EA6FAFCAF7D0EA641 /* libXHRealTimeBlur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXHRealTimeBlur.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		025E052A2B1FDC65BB6388C5491EE495 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
+		02EA0B38401D97F843DF53671247B9E8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0556DA5B936A47994A8C101B63523BA5 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		057D38E251E719C880A1040AF09C64BF /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		09FC3C5EE0929F5D87423551D880D367 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		0AB86D751096C11F2284A7E8F41FBA45 /* JTCalendarPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPageView.h; path = JTCalendar/Views/JTCalendarPageView.h; sourceTree = "<group>"; };
+		0AC99D4651E2A7EF33F1F236FFF7A3A5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0C1F5BE9C4210347F62A397816E07ECA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0F5BC3421A073815842241224BEC4A2E /* JTCalendarDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDay.h; path = JTCalendar/Protocols/JTCalendarDay.h; sourceTree = "<group>"; };
+		0FC5A520E1AE6D9882BC778732BC26EA /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		0FEEAE6B7F3B88A226402593298B9367 /* MenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = PopMenu/MenuItem.m; sourceTree = "<group>"; };
+		12E7319CDCF7552105DE9CF895101055 /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1304829FFB5B3CD8B6A0F352F63BA900 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		14E10F6FFF53EE194A3D52A04BB36471 /* MenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = PopMenu/MenuItem.h; sourceTree = "<group>"; };
+		15504AED7AAD907B4917F9955126B2F3 /* XHRealTimeBlur.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHRealTimeBlur.xcconfig; sourceTree = "<group>"; };
+		15919D99E3539101047B9288801A493A /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		15CCB55F0289F13556D305C877A1C229 /* JTContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTContent.h; path = JTCalendar/Protocols/JTContent.h; sourceTree = "<group>"; };
+		1634ACCC0F5FF8E5C9A69B7506B916FD /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarScrollManager.m; path = JTCalendar/Managers/JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		16D46D65CCA986AE712657BB6543FABE /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		16E9C01D12DC9CBAEF3FB6B549EE5E86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		1AA4AA46927CDC84ACCDC5844C1CF942 /* Pods-大姨吗-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-大姨吗-dummy.m"; sourceTree = "<group>"; };
+		1BFC612F41D32EC5A2D4F2B2F16677E3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1D7CE13FB63482B1C8472D75EC91C1A3 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		1F83E9BE42A1D8EEC7C4C3EA340368BD /* UIImage+ImageWithColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+ImageWithColor.xcconfig"; sourceTree = "<group>"; };
+		229D5C7D1F8D185F9DFC855E6182D804 /* PopMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopMenu-prefix.pch"; sourceTree = "<group>"; };
+		23B0663F8BE4D3BB57AA35AB5D5E262E /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		23E22A72788E51777502F68A01AB0094 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		25BF709EECB60E6ACA8543D568C2D150 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		27D017B8BFC71D3C1512AA4A02B511F5 /* JTCalendarDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDayView.h; path = JTCalendar/Views/JTCalendarDayView.h; sourceTree = "<group>"; };
+		2AF8A40074FB6DE0DDCB64F72BF8995C /* XHRealTimeBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHRealTimeBlur.m; path = XHRealTimeBlur/XHRealTimeBlur.m; sourceTree = "<group>"; };
+		2DB975BAF972D8B4DDFB69161E3E544D /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		2FBA642D968299C553D81CCC1FAB67BB /* Pods-大姨吗-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-大姨吗-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3131F350DD401D2987BA4896377AFC32 /* libUIImage+ImageWithColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIImage+ImageWithColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F7E101B85258C86A5B63F16D8B385A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		34DAAB97E63B2F80F70E5EAFE0126B39 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		36545B94C1B0B915947FD07EB0A286C5 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		3860594932ADDFC71049A02270DE723A /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		3BD0CEBAE6F8617083A400733EF80892 /* libPopMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPopMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4013C72CD0A3290C6A7E3D292238FFC7 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		41760605F5CECAE5B74D277007A3FA84 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		42702F47F704EEDCA1176D12E80B6165 /* JTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTCalendar-dummy.m"; sourceTree = "<group>"; };
+		43F479A3CA5C08F117B0C840805045DB /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		47BCECAD77D2A4F5858DA666541B1066 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4850E83751A16F95B13D8CBB1D55C596 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		5098CFF48EF3FCB4B499AE55021C70F0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		51775F1FBE6D85A6350F7FB33F02CFCB /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		53763AC4F278C87F6A6C70A24E25A6D5 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		53B470ED0D21B7C8E5F0922AFDA697CE /* JTCalendarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegate.h; path = JTCalendar/JTCalendarDelegate.h; sourceTree = "<group>"; };
+		53B908CEBB2D56C139B68D13B8DD1477 /* Pods-大姨吗.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-大姨吗.release.xcconfig"; sourceTree = "<group>"; };
+		544054DB145E38D5AFDC51631DB775AB /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTVerticalCalendarView.h; path = JTCalendar/Views/JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		56A66A01063F5DCF15FB1896E845376A /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDayView.h; path = JTCalendar/Views/JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		59F4CD56F05F3DCF2D6E1DFFEAB2E1C9 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		5AF2C02501F8F31BDCF0D9BB7EF7F6DB /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8E9083583811DF9E70C2BB12F1FD43 /* JTCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarManager.m; path = JTCalendar/JTCalendarManager.m; sourceTree = "<group>"; };
+		5ED7077F47E4D26D0B05E28998EA00DB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		61DD1BB8972DF2A086448ABFE34B23C5 /* JTCalendarMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMenuView.h; path = JTCalendar/Views/JTCalendarMenuView.h; sourceTree = "<group>"; };
+		624663E7355245075121BF0C607970D3 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		63F5D440956A8D71493C79FBAC8D7C7D /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		6507F5B2CBDF43C91A2ED8D5F6B60681 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		65C51FE5C1E5A386986B9E7AA52E9B98 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		6698414CE835EFC0255F1A97D580D17B /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		66E59B97B3C0A7A61500752A3FECEBC9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		66EA145E270EA201F7A0E3C9765B3E21 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		67BC3BC826D5ED4EFB34EE6D71E9696E /* JTCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendar.h; path = JTCalendar/JTCalendar.h; sourceTree = "<group>"; };
+		6B9FBC70408AB4A204A0D72800F0CDD2 /* MenuButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MenuButton.m; path = PopMenu/MenuButton.m; sourceTree = "<group>"; };
+		6C79705A01B3C4F2E5567D220649C100 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTVerticalCalendarView.m; path = JTCalendar/Views/JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		6CCC3A937A3414CBA3FA32A584A7734F /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		6DE5859F7F16E1F0AB96A1C0B28A2DC9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7272B403D263FF91D64C206977344CC5 /* JTCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarManager.h; path = JTCalendar/JTCalendarManager.h; sourceTree = "<group>"; };
+		759E2E6FC1FAE6A48332ED68F5958B8A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		761E7A76032487ABEE9E5775FDB3EE59 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		770F7B0ACFC3D17E1254E841F28EDAC2 /* PopMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PopMenu.m; path = PopMenu/PopMenu.m; sourceTree = "<group>"; };
+		784DEACFF8E3B92F431E9DC6C1B4A13C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7963A250C0432D71FB8ABA0A3C7F1A07 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		7B2466BD9691EF5FE051AAA5DC514B96 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		7B44381B53205D09B4424634F24033D4 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		7F67C82F100188DC3FA1B6541A7C5FB6 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		8424039170F1E8EF7659168AE155EE42 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		85FB3427B61A10D73B8F7FAA338EAC83 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		871C40D3A26D785F28493DB27B95AFDE /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		8914FC316B338C395D6D41BB3670CF58 /* JTDateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTDateHelper.m; path = JTCalendar/JTDateHelper.m; sourceTree = "<group>"; };
+		898669D6FE6985441648A05DA132A7A6 /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTHorizontalCalendarView.m; path = JTCalendar/Views/JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		89EC90217F0AB2734F5565B2ACFB1EEC /* UIImage+ImageWithColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor-prefix.pch"; sourceTree = "<group>"; };
+		8C0E46295C541568F72A881B7FE00A06 /* Pods-大姨吗.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-大姨吗.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA1D92C0F5B8B05B18812068E98FF95 /* XHRealTimeBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHRealTimeBlur.h; path = XHRealTimeBlur/XHRealTimeBlur.h; sourceTree = "<group>"; };
+		8FC929976FB9C85F16B42BAB91DA1E69 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		92790CDA5E641EB63DFEEE2506AE84EC /* PopMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopMenu-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D2392C44657BB76A4675DEF4B04AEA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		942A617F221DC0EC4FD2CB62DD35898B /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		94D37943C3FCC7A45A35303F7FBAF0E5 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		9874390CEC87F8B4037F1EE80D908C08 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		98B2EB4F5D2A6D0247267AE6EA26A901 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		9943346369F75A0539A88D6F8145705F /* UIImage+ImageWithColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor-dummy.m"; sourceTree = "<group>"; };
+		99F7CA505F8F57E7A1D25B4C92A97EF0 /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekDayView.m; path = JTCalendar/Views/JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		9B7F47B40DBD49409543C4B8A43D0D30 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		9BC9FB5CFC966AD4442C33ABF06BA95C /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		9F4F9675289836229B18C239B3FBFBE2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A30E4FF272B23ABB8599EDD03C24BF83 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		A42819D3BEBACFD0183CEEB98E4F7938 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		A646F9C877F227F8ABD6A989D47EB9DA /* XHRealTimeBlur-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHRealTimeBlur-prefix.pch"; sourceTree = "<group>"; };
+		A681F2C123D93FA451E84263D4E0882F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A683C4DDF059DBA42BEAF8A971D25B88 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		A6B6428CFA92876BD26D13F67E89D1B2 /* JTCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTCalendar.xcconfig; sourceTree = "<group>"; };
+		A7E9B58B6549538F1BA4A66305BB688C /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		A822EAC547BDD91D158E6A5C2C1BD224 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A82BE0DE1FBB109DF746C0CA76679684 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		AA055A3D3FDE1D046670B95E12A90554 /* XHRealTimeBlur-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHRealTimeBlur-dummy.m"; sourceTree = "<group>"; };
+		AA43968D4E22214A4E76095C4A2D1A06 /* JTCalendarPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarPageView.m; path = JTCalendar/Views/JTCalendarPageView.m; sourceTree = "<group>"; };
+		ACA0EFF152EE48A604D6EA112ACB637A /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		AE1B10BBB55FE7701AD0144A81D815DE /* PopMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopMenu.xcconfig; sourceTree = "<group>"; };
+		B09A78DE30F3FD45E636D8F361E1CFF7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B0A6477C8651BE2122362851FE5CB429 /* JTMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTMenu.h; path = JTCalendar/Protocols/JTMenu.h; sourceTree = "<group>"; };
+		B1E66A95D0AA4A1CFB553C8C99F76F7F /* JTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		B22D3D33F8CD07E2F331BE271AB6C9E3 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekView.m; path = JTCalendar/Views/JTCalendarWeekView.m; sourceTree = "<group>"; };
+		B24AFB6A3E0A9BD30A50192E2ED72E94 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		B3049224AFC40C2EA7CB63D06D1B2748 /* Pods-大姨吗-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-大姨吗-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B892C9CF053F5F37969D4ED8EDD7863D /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		C049B1AC4EC8B4958C7F0D88B0487867 /* JTCalendarSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarSettings.m; path = JTCalendar/JTCalendarSettings.m; sourceTree = "<group>"; };
+		C1EA8AFE12EA3BB351E15BE633D87C3E /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C3C230B3C49878F167102818CD4DC92C /* Pods-大姨吗-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-大姨吗-resources.sh"; sourceTree = "<group>"; };
+		C5CD1F778B063A94190E7F28A2ECAB1F /* Pods-大姨吗-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-大姨吗-frameworks.sh"; sourceTree = "<group>"; };
+		C6428ACC31B19E8B9BF0D1E8A2E2C3DA /* JTCalendarSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarSettings.h; path = JTCalendar/JTCalendarSettings.h; sourceTree = "<group>"; };
+		C71A122E3CB039E8977C29811A38028B /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		C9ADF2E9A0E519CE8D072344361D68D3 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		CA047162F4FB5118F2D051A248162308 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		CA7465DE5D29E8719CC4427E9EBA8DA9 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		CC1CADD8418BBC9E87D362210418E268 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekView.h; path = JTCalendar/Views/JTCalendarWeekView.h; sourceTree = "<group>"; };
+		CD0275B994A941D8309E59F33233DC42 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		CD68B0DAB538580E1BA4BFC25FC04537 /* JTCalendarMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMenuView.m; path = JTCalendar/Views/JTCalendarMenuView.m; sourceTree = "<group>"; };
+		CDDB11484B2340C7A74F775A70F1586A /* GlowImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlowImageView.h; path = PopMenu/GlowImageView.h; sourceTree = "<group>"; };
+		D1A826E784608C645FE15219BEB5A5A9 /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarScrollManager.h; path = JTCalendar/Managers/JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		D1FA823DA05310612D06961F69D9B703 /* JTCalendarWeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeek.h; path = JTCalendar/Protocols/JTCalendarWeek.h; sourceTree = "<group>"; };
+		D2F0106AA81E6D4C79DD7274B4EC91DC /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		D3573B6C15587E420B7C5160099BE13D /* MenuButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MenuButton.h; path = PopMenu/MenuButton.h; sourceTree = "<group>"; };
+		D4FECF06723BBF95181B57DE8D42A63F /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		D8ABFBB1EC6750FFE7DA4FDF0F7BC9FE /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		DA67453F939169C7AD4172B85F70948A /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		DBBB0412359FA89400506E6B908B0B62 /* JTCalendarPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPage.h; path = JTCalendar/Protocols/JTCalendarPage.h; sourceTree = "<group>"; };
+		DC72E7BCC9990ECB42E1956E233B9654 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		DD8A3F8D336530E56A654F84595E8F86 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		DDFD2C0E617445FC29357FB539447F5C /* PopMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PopMenu.h; path = PopMenu/PopMenu.h; sourceTree = "<group>"; };
+		DF26F6A7B6959BA9FF6A8CB5B5DC1F2F /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		E07EAA2F44A5AAB26320554F6F04D312 /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegateManager.h; path = JTCalendar/Managers/JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		E0F132132BDF8C2C3ED1CD5561E4A663 /* JTDateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTDateHelper.h; path = JTCalendar/JTDateHelper.h; sourceTree = "<group>"; };
+		E418CF65DB3985BFD2BFAFCF4A032DF8 /* JTCalendarDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDayView.m; path = JTCalendar/Views/JTCalendarDayView.m; sourceTree = "<group>"; };
+		E57A8F3B7B6C5D97B65A3E2166086945 /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDelegateManager.m; path = JTCalendar/Managers/JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		E87B4708905F6B29D76422EBD1015C99 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EA653A4E7A2A4F94E11C68CCF2598DCB /* GlowImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlowImageView.m; path = PopMenu/GlowImageView.m; sourceTree = "<group>"; };
+		ECFF1FDB872D153CABD061AAE88F77AE /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		EDE6C45174C5ED6D11B5D585A3648A62 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		EEC5F4B37ABB628D6F29A647EFB88328 /* libJTCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C563F85083A2CAC84E68924DC2326B /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		FB16A674A1E9DA87A0EA20EBE5009653 /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTHorizontalCalendarView.h; path = JTCalendar/Views/JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		FB56FAD6E90939ED50A60317ADACA63B /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDay.h; path = JTCalendar/Protocols/JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		FB98D10655D58E301744EE30C9AF7E9E /* libPods-大姨吗.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-大姨吗.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFC736922061F23A0BDFFEF0B4E71A5 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA9E4B06AF82B7C67DC302218579D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F27D5C9FA93870917B0779A9D11557A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8E0D628B1E494F2B6EA787EB47C554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC2BC3FC08E311D9BB80E9084864AAD /* CoreGraphics.framework in Frameworks */,
+				DD1D07B68EDC0096A85EDF8B6AAADAE3 /* Foundation.framework in Frameworks */,
+				DD2CDFDB039A08C3F4743278311ECE38 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A157FC54B6D2FAEEB284F08C1FAAB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329D0A799D9DD2AB0ACDBAD7CC206215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57EE98977F3A4189490F3F699BC249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094FD09F81C6852B92D991DE2DA4EA64 /* Foundation.framework in Frameworks */,
+				69E822A69DC1732CC50AAB95BF7F8C15 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC4EDED53CA04D1A1C5F1385C2F930A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B463DDA7F521FB25F08F8F2C0FE05EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06C7CB967BD7FB4D9E975C5A37B48A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B31D746876AE2196F4A18E2D66406D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DACB78BCC1B2262275CC80455D3A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F597A5328F58E6E8EAF108C7AC2A /* CoreGraphics.framework in Frameworks */,
+				BC14C43BE95D67CFC3239C335DF32649 /* Foundation.framework in Frameworks */,
+				9AAC689451D0C94BBCA059715356612C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB9E9D9BBDB93399D3C2B91469EC4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE31B168D9197213CEB7B90E3ADEB4CC /* Foundation.framework in Frameworks */,
+				AF4E7187E09A5AF3A0758991203153DC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B898DCA387DBDF43F0FF2EB8622BB7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				02EA0B38401D97F843DF53671247B9E8 /* MASCompositeConstraint.h */,
+				784DEACFF8E3B92F431E9DC6C1B4A13C /* MASCompositeConstraint.m */,
+				CA7465DE5D29E8719CC4427E9EBA8DA9 /* MASConstraint.h */,
+				63F5D440956A8D71493C79FBAC8D7C7D /* MASConstraint.m */,
+				0AC99D4651E2A7EF33F1F236FFF7A3A5 /* MASConstraint+Private.h */,
+				B09A78DE30F3FD45E636D8F361E1CFF7 /* MASConstraintMaker.h */,
+				A82BE0DE1FBB109DF746C0CA76679684 /* MASConstraintMaker.m */,
+				66E59B97B3C0A7A61500752A3FECEBC9 /* MASLayoutConstraint.h */,
+				6DE5859F7F16E1F0AB96A1C0B28A2DC9 /* MASLayoutConstraint.m */,
+				0FC5A520E1AE6D9882BC778732BC26EA /* Masonry.h */,
+				7F67C82F100188DC3FA1B6541A7C5FB6 /* MASUtilities.h */,
+				A822EAC547BDD91D158E6A5C2C1BD224 /* MASViewAttribute.h */,
+				759E2E6FC1FAE6A48332ED68F5958B8A /* MASViewAttribute.m */,
+				A683C4DDF059DBA42BEAF8A971D25B88 /* MASViewConstraint.h */,
+				66EA145E270EA201F7A0E3C9765B3E21 /* MASViewConstraint.m */,
+				9F4F9675289836229B18C239B3FBFBE2 /* NSArray+MASAdditions.h */,
+				A681F2C123D93FA451E84263D4E0882F /* NSArray+MASAdditions.m */,
+				5098CFF48EF3FCB4B499AE55021C70F0 /* NSArray+MASShorthandAdditions.h */,
+				93D2392C44657BB76A4675DEF4B04AEA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8FC929976FB9C85F16B42BAB91DA1E69 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				16E9C01D12DC9CBAEF3FB6B549EE5E86 /* View+MASAdditions.h */,
+				1BFC612F41D32EC5A2D4F2B2F16677E3 /* View+MASAdditions.m */,
+				47BCECAD77D2A4F5858DA666541B1066 /* View+MASShorthandAdditions.h */,
+				5ED7077F47E4D26D0B05E28998EA00DB /* ViewController+MASAdditions.h */,
+				E87B4708905F6B29D76422EBD1015C99 /* ViewController+MASAdditions.m */,
+				B7435382D797B2FA350CFD6BDDFB6315 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		06F6DB7C9587218D23E23821B481827C /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB11484B2340C7A74F775A70F1586A /* GlowImageView.h */,
+				EA653A4E7A2A4F94E11C68CCF2598DCB /* GlowImageView.m */,
+				D3573B6C15587E420B7C5160099BE13D /* MenuButton.h */,
+				6B9FBC70408AB4A204A0D72800F0CDD2 /* MenuButton.m */,
+				14E10F6FFF53EE194A3D52A04BB36471 /* MenuItem.h */,
+				0FEEAE6B7F3B88A226402593298B9367 /* MenuItem.m */,
+				DDFD2C0E617445FC29357FB539447F5C /* PopMenu.h */,
+				770F7B0ACFC3D17E1254E841F28EDAC2 /* PopMenu.m */,
+				1ECAF23493544DB18C8320725C0FF79F /* Support Files */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A729B545A043869C7D756D57BE304D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FC3C5EE0929F5D87423551D880D367 /* pop.xcconfig */,
+				23B0663F8BE4D3BB57AA35AB5D5E262E /* pop-dummy.m */,
+				53763AC4F278C87F6A6C70A24E25A6D5 /* pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		1CB397221A7AB8AA33A61CDC93DF2CB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF035EFB5F33D3B9D2208C381F3EFE2 /* Pods-大姨吗 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1ECAF23493544DB18C8320725C0FF79F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1B10BBB55FE7701AD0144A81D815DE /* PopMenu.xcconfig */,
+				92790CDA5E641EB63DFEEE2506AE84EC /* PopMenu-dummy.m */,
+				229D5C7D1F8D185F9DFC855E6182D804 /* PopMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopMenu";
+			sourceTree = "<group>";
+		};
+		22DFE79538F243534E67C7EF9BD1FDA3 /* UIImage+ImageWithColor */ = {
+			isa = PBXGroup;
+			children = (
+				DC72E7BCC9990ECB42E1956E233B9654 /* UIImage+ImageWithColor.h */,
+				65C51FE5C1E5A386986B9E7AA52E9B98 /* UIImage+ImageWithColor.m */,
+				F85DA8AE17E9EDBBE5FB96AE2C0DFA88 /* Support Files */,
+			);
+			path = "UIImage+ImageWithColor";
+			sourceTree = "<group>";
+		};
+		42F75CB3ECB6D1AF9082A1E58D81995C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF2C02501F8F31BDCF0D9BB7EF7F6DB /* libHexColors.a */,
+				EEC5F4B37ABB628D6F29A647EFB88328 /* libJTCalendar.a */,
+				0C1F5BE9C4210347F62A397816E07ECA /* libMasonry.a */,
+				FB98D10655D58E301744EE30C9AF7E9E /* libPods-大姨吗.a */,
+				12E7319CDCF7552105DE9CF895101055 /* libpop.a */,
+				3BD0CEBAE6F8617083A400733EF80892 /* libPopMenu.a */,
+				3131F350DD401D2987BA4896377AFC32 /* libUIImage+ImageWithColor.a */,
+				016147A9038FB83EA6FAFCAF7D0EA641 /* libXHRealTimeBlur.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3838E55728F929EEB5714EF603C8DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6428CFA92876BD26D13F67E89D1B2 /* JTCalendar.xcconfig */,
+				42702F47F704EEDCA1176D12E80B6165 /* JTCalendar-dummy.m */,
+				B1E66A95D0AA4A1CFB553C8C99F76F7F /* JTCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTCalendar";
+			sourceTree = "<group>";
+		};
+		5BF035EFB5F33D3B9D2208C381F3EFE2 /* Pods-大姨吗 */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA642D968299C553D81CCC1FAB67BB /* Pods-大姨吗-acknowledgements.markdown */,
+				B3049224AFC40C2EA7CB63D06D1B2748 /* Pods-大姨吗-acknowledgements.plist */,
+				1AA4AA46927CDC84ACCDC5844C1CF942 /* Pods-大姨吗-dummy.m */,
+				C5CD1F778B063A94190E7F28A2ECAB1F /* Pods-大姨吗-frameworks.sh */,
+				C3C230B3C49878F167102818CD4DC92C /* Pods-大姨吗-resources.sh */,
+				8C0E46295C541568F72A881B7FE00A06 /* Pods-大姨吗.debug.xcconfig */,
+				53B908CEBB2D56C139B68D13B8DD1477 /* Pods-大姨吗.release.xcconfig */,
+			);
+			name = "Pods-大姨吗";
+			path = "Target Support Files/Pods-大姨吗";
+			sourceTree = "<group>";
+		};
+		767420683523640F8F0A15F05F676D3B /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				15919D99E3539101047B9288801A493A /* HexColor.h */,
+				025E052A2B1FDC65BB6388C5491EE495 /* HexColor.m */,
+				D82803CFEDEF0896F43F2C3013E83179 /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CE1B11811D25253738E2DCB39F78F041 /* Pods */,
+				42F75CB3ECB6D1AF9082A1E58D81995C /* Products */,
+				1CB397221A7AB8AA33A61CDC93DF2CB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6E6BE1E33D2A29C324AEEEBF45405D /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				1D7CE13FB63482B1C8472D75EC91C1A3 /* FloatConversion.h */,
+				871C40D3A26D785F28493DB27B95AFDE /* POP.h */,
+				D4FECF06723BBF95181B57DE8D42A63F /* POPAction.h */,
+				4013C72CD0A3290C6A7E3D292238FFC7 /* POPAnimatableProperty.h */,
+				9BC9FB5CFC966AD4442C33ABF06BA95C /* POPAnimatableProperty.mm */,
+				51775F1FBE6D85A6350F7FB33F02CFCB /* POPAnimation.h */,
+				94D37943C3FCC7A45A35303F7FBAF0E5 /* POPAnimation.mm */,
+				DD8A3F8D336530E56A654F84595E8F86 /* POPAnimationEvent.h */,
+				43F479A3CA5C08F117B0C840805045DB /* POPAnimationEvent.mm */,
+				624663E7355245075121BF0C607970D3 /* POPAnimationEventInternal.h */,
+				25BF709EECB60E6ACA8543D568C2D150 /* POPAnimationExtras.h */,
+				7963A250C0432D71FB8ABA0A3C7F1A07 /* POPAnimationExtras.mm */,
+				ACA0EFF152EE48A604D6EA112ACB637A /* POPAnimationInternal.h */,
+				761E7A76032487ABEE9E5775FDB3EE59 /* POPAnimationPrivate.h */,
+				23E22A72788E51777502F68A01AB0094 /* POPAnimationRuntime.h */,
+				B24AFB6A3E0A9BD30A50192E2ED72E94 /* POPAnimationRuntime.mm */,
+				3860594932ADDFC71049A02270DE723A /* POPAnimationTracer.h */,
+				7B44381B53205D09B4424634F24033D4 /* POPAnimationTracer.mm */,
+				ECFF1FDB872D153CABD061AAE88F77AE /* POPAnimationTracerInternal.h */,
+				34DAAB97E63B2F80F70E5EAFE0126B39 /* POPAnimator.h */,
+				C71A122E3CB039E8977C29811A38028B /* POPAnimator.mm */,
+				D8ABFBB1EC6750FFE7DA4FDF0F7BC9FE /* POPAnimatorPrivate.h */,
+				98B2EB4F5D2A6D0247267AE6EA26A901 /* POPBasicAnimation.h */,
+				DA67453F939169C7AD4172B85F70948A /* POPBasicAnimation.mm */,
+				9B7F47B40DBD49409543C4B8A43D0D30 /* POPBasicAnimationInternal.h */,
+				36545B94C1B0B915947FD07EB0A286C5 /* POPCGUtils.h */,
+				EDE6C45174C5ED6D11B5D585A3648A62 /* POPCGUtils.mm */,
+				FCFC736922061F23A0BDFFEF0B4E71A5 /* POPCustomAnimation.h */,
+				41760605F5CECAE5B74D277007A3FA84 /* POPCustomAnimation.mm */,
+				1304829FFB5B3CD8B6A0F352F63BA900 /* POPDecayAnimation.h */,
+				057D38E251E719C880A1040AF09C64BF /* POPDecayAnimation.mm */,
+				D2F0106AA81E6D4C79DD7274B4EC91DC /* POPDecayAnimationInternal.h */,
+				C9ADF2E9A0E519CE8D072344361D68D3 /* POPDefines.h */,
+				6507F5B2CBDF43C91A2ED8D5F6B60681 /* POPGeometry.h */,
+				9874390CEC87F8B4037F1EE80D908C08 /* POPGeometry.mm */,
+				6698414CE835EFC0255F1A97D580D17B /* POPLayerExtras.h */,
+				A30E4FF272B23ABB8599EDD03C24BF83 /* POPLayerExtras.mm */,
+				CD0275B994A941D8309E59F33233DC42 /* POPMath.h */,
+				B892C9CF053F5F37969D4ED8EDD7863D /* POPMath.mm */,
+				6CCC3A937A3414CBA3FA32A584A7734F /* POPPropertyAnimation.h */,
+				85FB3427B61A10D73B8F7FAA338EAC83 /* POPPropertyAnimation.mm */,
+				4850E83751A16F95B13D8CBB1D55C596 /* POPPropertyAnimationInternal.h */,
+				8424039170F1E8EF7659168AE155EE42 /* POPSpringAnimation.h */,
+				C1EA8AFE12EA3BB351E15BE633D87C3E /* POPSpringAnimation.mm */,
+				DF26F6A7B6959BA9FF6A8CB5B5DC1F2F /* POPSpringAnimationInternal.h */,
+				2DB975BAF972D8B4DDFB69161E3E544D /* POPSpringSolver.h */,
+				F7C563F85083A2CAC84E68924DC2326B /* POPVector.h */,
+				A42819D3BEBACFD0183CEEB98E4F7938 /* POPVector.mm */,
+				A7E9B58B6549538F1BA4A66305BB688C /* TransformationMatrix.cpp */,
+				0077C868B9F687575371EDFC8A8B34F2 /* TransformationMatrix.h */,
+				0556DA5B936A47994A8C101B63523BA5 /* UnitBezier.h */,
+				1A729B545A043869C7D756D57BE304D4 /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		B7435382D797B2FA350CFD6BDDFB6315 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B2466BD9691EF5FE051AAA5DC514B96 /* Masonry.xcconfig */,
+				32F7E101B85258C86A5B63F16D8B385A /* Masonry-dummy.m */,
+				16D46D65CCA986AE712657BB6543FABE /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CE1B11811D25253738E2DCB39F78F041 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767420683523640F8F0A15F05F676D3B /* HexColors */,
+				EBC5A77B86B8BD8916342AE9AE84E108 /* JTCalendar */,
+				03B898DCA387DBDF43F0FF2EB8622BB7 /* Masonry */,
+				9D6E6BE1E33D2A29C324AEEEBF45405D /* pop */,
+				06F6DB7C9587218D23E23821B481827C /* PopMenu */,
+				22DFE79538F243534E67C7EF9BD1FDA3 /* UIImage+ImageWithColor */,
+				F97E8922259C67421CA4DD89AF15EAA8 /* XHRealTimeBlur */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D82803CFEDEF0896F43F2C3013E83179 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA047162F4FB5118F2D051A248162308 /* HexColors.xcconfig */,
+				59F4CD56F05F3DCF2D6E1DFFEAB2E1C9 /* HexColors-dummy.m */,
+				942A617F221DC0EC4FD2CB62DD35898B /* HexColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		EBC5A77B86B8BD8916342AE9AE84E108 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				67BC3BC826D5ED4EFB34EE6D71E9696E /* JTCalendar.h */,
+				0F5BC3421A073815842241224BEC4A2E /* JTCalendarDay.h */,
+				27D017B8BFC71D3C1512AA4A02B511F5 /* JTCalendarDayView.h */,
+				E418CF65DB3985BFD2BFAFCF4A032DF8 /* JTCalendarDayView.m */,
+				53B470ED0D21B7C8E5F0922AFDA697CE /* JTCalendarDelegate.h */,
+				E07EAA2F44A5AAB26320554F6F04D312 /* JTCalendarDelegateManager.h */,
+				E57A8F3B7B6C5D97B65A3E2166086945 /* JTCalendarDelegateManager.m */,
+				7272B403D263FF91D64C206977344CC5 /* JTCalendarManager.h */,
+				5D8E9083583811DF9E70C2BB12F1FD43 /* JTCalendarManager.m */,
+				61DD1BB8972DF2A086448ABFE34B23C5 /* JTCalendarMenuView.h */,
+				CD68B0DAB538580E1BA4BFC25FC04537 /* JTCalendarMenuView.m */,
+				DBBB0412359FA89400506E6B908B0B62 /* JTCalendarPage.h */,
+				0AB86D751096C11F2284A7E8F41FBA45 /* JTCalendarPageView.h */,
+				AA43968D4E22214A4E76095C4A2D1A06 /* JTCalendarPageView.m */,
+				D1A826E784608C645FE15219BEB5A5A9 /* JTCalendarScrollManager.h */,
+				1634ACCC0F5FF8E5C9A69B7506B916FD /* JTCalendarScrollManager.m */,
+				C6428ACC31B19E8B9BF0D1E8A2E2C3DA /* JTCalendarSettings.h */,
+				C049B1AC4EC8B4958C7F0D88B0487867 /* JTCalendarSettings.m */,
+				D1FA823DA05310612D06961F69D9B703 /* JTCalendarWeek.h */,
+				FB56FAD6E90939ED50A60317ADACA63B /* JTCalendarWeekDay.h */,
+				56A66A01063F5DCF15FB1896E845376A /* JTCalendarWeekDayView.h */,
+				99F7CA505F8F57E7A1D25B4C92A97EF0 /* JTCalendarWeekDayView.m */,
+				CC1CADD8418BBC9E87D362210418E268 /* JTCalendarWeekView.h */,
+				B22D3D33F8CD07E2F331BE271AB6C9E3 /* JTCalendarWeekView.m */,
+				15CCB55F0289F13556D305C877A1C229 /* JTContent.h */,
+				E0F132132BDF8C2C3ED1CD5561E4A663 /* JTDateHelper.h */,
+				8914FC316B338C395D6D41BB3670CF58 /* JTDateHelper.m */,
+				FB16A674A1E9DA87A0EA20EBE5009653 /* JTHorizontalCalendarView.h */,
+				898669D6FE6985441648A05DA132A7A6 /* JTHorizontalCalendarView.m */,
+				B0A6477C8651BE2122362851FE5CB429 /* JTMenu.h */,
+				544054DB145E38D5AFDC51631DB775AB /* JTVerticalCalendarView.h */,
+				6C79705A01B3C4F2E5567D220649C100 /* JTVerticalCalendarView.m */,
+				4B3838E55728F929EEB5714EF603C8DA /* Support Files */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		F573F3A77D68DF33B6AA8CBE783BCFC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15504AED7AAD907B4917F9955126B2F3 /* XHRealTimeBlur.xcconfig */,
+				AA055A3D3FDE1D046670B95E12A90554 /* XHRealTimeBlur-dummy.m */,
+				A646F9C877F227F8ABD6A989D47EB9DA /* XHRealTimeBlur-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XHRealTimeBlur";
+			sourceTree = "<group>";
+		};
+		F85DA8AE17E9EDBBE5FB96AE2C0DFA88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F83E9BE42A1D8EEC7C4C3EA340368BD /* UIImage+ImageWithColor.xcconfig */,
+				9943346369F75A0539A88D6F8145705F /* UIImage+ImageWithColor-dummy.m */,
+				89EC90217F0AB2734F5565B2ACFB1EEC /* UIImage+ImageWithColor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+ImageWithColor";
+			sourceTree = "<group>";
+		};
+		F97E8922259C67421CA4DD89AF15EAA8 /* XHRealTimeBlur */ = {
+			isa = PBXGroup;
+			children = (
+				8CA1D92C0F5B8B05B18812068E98FF95 /* XHRealTimeBlur.h */,
+				2AF8A40074FB6DE0DDCB64F72BF8995C /* XHRealTimeBlur.m */,
+				F573F3A77D68DF33B6AA8CBE783BCFC8 /* Support Files */,
+			);
+			path = XHRealTimeBlur;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EE6DF0D5C6F5723FEFEE2B0D84BA817 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A217E0575EBA9131D44F813ED46CB202 /* FloatConversion.h in Headers */,
+				18CE794C4F6404558C6DD50ECA8DFE17 /* POP.h in Headers */,
+				E60FA6F58E88164202F913B38486B4B3 /* POPAction.h in Headers */,
+				842BB580F3AE6782E0A79CA57A047E61 /* POPAnimatableProperty.h in Headers */,
+				AD51C0E89F3871756BBFB6CD3781231E /* POPAnimation.h in Headers */,
+				34EDAC7F9B5C99A250D2811110CB8004 /* POPAnimationEvent.h in Headers */,
+				F99EDC56FA331B95A857D47D9EC2D308 /* POPAnimationEventInternal.h in Headers */,
+				E07157F2DB166BFE7973F1743E896E16 /* POPAnimationExtras.h in Headers */,
+				6057ADC1D9A1B64A7CDA191C0CE7F147 /* POPAnimationInternal.h in Headers */,
+				4F3FFAA4C564072E466012049CDA88D0 /* POPAnimationPrivate.h in Headers */,
+				D25D08AE4031DD37DC89B669E7D54ABD /* POPAnimationRuntime.h in Headers */,
+				5A26458DBAD0A8C81F3884FE73084BBC /* POPAnimationTracer.h in Headers */,
+				384BE5632E93194EC0729943EA3B0146 /* POPAnimationTracerInternal.h in Headers */,
+				F96BB1E28F71B4574777C7B868F2100B /* POPAnimator.h in Headers */,
+				D6F0906790DC417E0AF2213B75B4CAE9 /* POPAnimatorPrivate.h in Headers */,
+				5A193626FA4399C41343A5E5F5D36678 /* POPBasicAnimation.h in Headers */,
+				37D203269E2B7CA80C41446143684030 /* POPBasicAnimationInternal.h in Headers */,
+				E08EAD8A442B1ADD2F06019106030FEC /* POPCGUtils.h in Headers */,
+				C8D230A2FD796DA2A942DDD18CAF86B5 /* POPCustomAnimation.h in Headers */,
+				804A0C2E9BE751C02806978129D2367F /* POPDecayAnimation.h in Headers */,
+				F2C6C1453B5DFD7CC72AEB5641BAB06F /* POPDecayAnimationInternal.h in Headers */,
+				B82865390A692DAE0EED0DBAE6E62FE3 /* POPDefines.h in Headers */,
+				9444DDB7F00236787CE479C8D36E9B76 /* POPGeometry.h in Headers */,
+				1DD35CC05851BAF9728EE2CFFC06FA99 /* POPLayerExtras.h in Headers */,
+				CF60F77C44D03B054869ADA49488706D /* POPMath.h in Headers */,
+				93F4B9D73375073E0F8BFA2E8B35F4C2 /* POPPropertyAnimation.h in Headers */,
+				DFDD97C5C253B7244DFA86DC572BA73D /* POPPropertyAnimationInternal.h in Headers */,
+				218DABA99F5B0BC99C79AF7EDBFC9350 /* POPSpringAnimation.h in Headers */,
+				EA293C936293E277AAE9E7A5BB711F97 /* POPSpringAnimationInternal.h in Headers */,
+				429BE03D69A2E7DEFB44DE2B7D14A60F /* POPSpringSolver.h in Headers */,
+				E879FFF9CAAE64B4438DC1FF2519FA91 /* POPVector.h in Headers */,
+				58F6DDC11BEADB46173AFDFE4C69B8ED /* TransformationMatrix.h in Headers */,
+				912A52ABB5A131B6E3A1C3418EE87D8A /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB91888647D2D99CDF2FB556B6E4E0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A5566B2E3A6F134090E45C392915E9 /* GlowImageView.h in Headers */,
+				5E25506DB2B178EF60536B0CC7EC61DE /* MenuButton.h in Headers */,
+				1F59D0D8082652DAA96E81631D4D6A27 /* MenuItem.h in Headers */,
+				54DA2D9C9ED1958E8695967CE81E687B /* PopMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516F25EF95D6A8C21EE0576F3DF0B614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF77D306A27B7C3A03897342C067C8C /* UIImage+ImageWithColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657D857047A6A935B5A2E9BD049194F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D8C610BC84BE231C5D3D280F3B12AF /* MASCompositeConstraint.h in Headers */,
+				B2B7C90BA9C4DBD9851C75AC801B0E8E /* MASConstraint+Private.h in Headers */,
+				2905381350CEFFBFFA9BC8B5D027F190 /* MASConstraint.h in Headers */,
+				EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */,
+				C6EE194D232E9FE87097C0F1DF91B9FA /* MASLayoutConstraint.h in Headers */,
+				9205037BA8C22574B33FC96C5EA829A3 /* Masonry.h in Headers */,
+				FF682E8B083BAEBBDF38C52D89D45E37 /* MASUtilities.h in Headers */,
+				3F63C119F95A6735AE627BBB1BEBC4B1 /* MASViewAttribute.h in Headers */,
+				EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */,
+				FD39EBE3398E1A99965AC003B273450D /* NSArray+MASAdditions.h in Headers */,
+				A7D31BD1F3AD4ED4612467FAD332F388 /* NSArray+MASShorthandAdditions.h in Headers */,
+				2979E54C4AFD27076576E82ADEED2F00 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				DD1F717B0527C71229B3339324E35E55 /* View+MASAdditions.h in Headers */,
+				432BD50F1E699EDF2EA007E850FFCEF7 /* View+MASShorthandAdditions.h in Headers */,
+				331718BFB4A91CFFE026492905231562 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6F8A0025DD096F4CB9E3326B8A7706 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5939FA30BD11B334E75DE208F89482C2 /* JTCalendar.h in Headers */,
+				3B0937526EF2C2D45E292C73CD7EBC42 /* JTCalendarDay.h in Headers */,
+				0528C3367FCA3B4AAEDC555C96520FD3 /* JTCalendarDayView.h in Headers */,
+				A54F14447F9A26EEBBC08FAD71F60D05 /* JTCalendarDelegate.h in Headers */,
+				85A33D486B9C51FCBD8653FD28A53F09 /* JTCalendarDelegateManager.h in Headers */,
+				C7A68641A6946885A5884955838B7DFF /* JTCalendarManager.h in Headers */,
+				56817EDF817762843F04249DB39FBEDC /* JTCalendarMenuView.h in Headers */,
+				4DCEE102AAEF72CE38E475188BA7CE47 /* JTCalendarPage.h in Headers */,
+				1F1FE08B1A94FCC6FA9ABE61581F243A /* JTCalendarPageView.h in Headers */,
+				6D797980E69D19629DC395537E245912 /* JTCalendarScrollManager.h in Headers */,
+				8DDDA12A4DB4B647F2F15ADA76E25677 /* JTCalendarSettings.h in Headers */,
+				5C378E9457D6A5632634E072AD14CECD /* JTCalendarWeek.h in Headers */,
+				1D1147AEC7E665BED21D80587C63EA71 /* JTCalendarWeekDay.h in Headers */,
+				50B5320A8060BAFF68DEA0AEAD09DDE0 /* JTCalendarWeekDayView.h in Headers */,
+				52DC668B0B68A66B0FA6187EAB904AF2 /* JTCalendarWeekView.h in Headers */,
+				71C0D0094A799BC387C6F579826349EE /* JTContent.h in Headers */,
+				D0D1D8260732EFA47EA8F3F6DFFA518F /* JTDateHelper.h in Headers */,
+				56E57075B7E9918AAE1FC3C152BB4124 /* JTHorizontalCalendarView.h in Headers */,
+				AA41C6AD136CA0438F9924E41334E9DE /* JTMenu.h in Headers */,
+				3E0FD51A1522DEA316D2AC75704460D0 /* JTVerticalCalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0C7E4EB9E8CDC2A84FD0546DC0CF3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0671844B1CE4FA936C4E149406D006E /* XHRealTimeBlur.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76C84D031AB738E21FC91B86C76B41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAE4CFA529CF3FF5D27773E81A54981 /* HexColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DB6CCE16BC36324581F822B3F56AB88 /* Pods-大姨吗 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B886401C9C49E586D997999E819A17B /* Build configuration list for PBXNativeTarget "Pods-大姨吗" */;
+			buildPhases = (
+				6266B157CD188E2A2A7DF34437A8145D /* Sources */,
+				8EC4EDED53CA04D1A1C5F1385C2F930A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75BD8E275236613AFC226F338CEFF421 /* PBXTargetDependency */,
+				6300B8C10321F8B6C0B881C20FBCF9D6 /* PBXTargetDependency */,
+				AFE741155C92E26D64301C765BB5CFBF /* PBXTargetDependency */,
+				28D2BBAA0731915C6C857995FBCD5918 /* PBXTargetDependency */,
+				A1ED8CA37FD8157BC4674565ECAA2A8C /* PBXTargetDependency */,
+				8A9095A97C8178CB8D16C296F188849C /* PBXTargetDependency */,
+				3787D575B570F44248C7F5BBA71FC6B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-大姨吗";
+			productName = "Pods-大姨吗";
+			productReference = FB98D10655D58E301744EE30C9AF7E9E /* libPods-大姨吗.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53480ED0BE09FF49E34B1702D485CAAB /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6653DB75D219E078020C341A7D83ECE /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				DC8579C657135E3C32AB580A48C6D524 /* Sources */,
+				FAB9E9D9BBDB93399D3C2B91469EC4B6 /* Frameworks */,
+				657D857047A6A935B5A2E9BD049194F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 0C1F5BE9C4210347F62A397816E07ECA /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6DDAEDE217E2586A4BFF0AB184E4E63D /* PopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBA1EAE056B2C795643249A64FD2CB5 /* Build configuration list for PBXNativeTarget "PopMenu" */;
+			buildPhases = (
+				8A3156CE3D39B35A56126BB01280D964 /* Sources */,
+				D0DACB78BCC1B2262275CC80455D3A8B /* Frameworks */,
+				3DB91888647D2D99CDF2FB556B6E4E0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827FE8405EDB934D18843B24CDD569F3 /* PBXTargetDependency */,
+				41D4D8C8DDC37FC02711BD13E9F5A37A /* PBXTargetDependency */,
+			);
+			name = PopMenu;
+			productName = PopMenu;
+			productReference = 3BD0CEBAE6F8617083A400733EF80892 /* libPopMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9CB478DC5A44CF26B12D076D686C06EF /* XHRealTimeBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ED4B2FDE824C1F47E2FD36E48BC289 /* Build configuration list for PBXNativeTarget "XHRealTimeBlur" */;
+			buildPhases = (
+				FCEE95A1B1009DD8822FF0990F0C5E7C /* Sources */,
+				2F8E0D628B1E494F2B6EA787EB47C554 /* Frameworks */,
+				EE0C7E4EB9E8CDC2A84FD0546DC0CF3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHRealTimeBlur;
+			productName = XHRealTimeBlur;
+			productReference = 016147A9038FB83EA6FAFCAF7D0EA641 /* libXHRealTimeBlur.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE9B55C4804E23F9345A7D403AFBF1D5 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C251FA2C3D3713487C24A323129C8687 /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				57C20691238AD019255A5FB961D97539 /* Sources */,
+				A06C7CB967BD7FB4D9E975C5A37B48A2 /* Frameworks */,
+				2EE6DF0D5C6F5723FEFEE2B0D84BA817 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 12E7319CDCF7552105DE9CF895101055 /* libpop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3AD7E342840A1BEA026D1D3A2D9C1A7 /* JTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EAA5712C6816A162C8ADFC8F2D3993 /* Build configuration list for PBXNativeTarget "JTCalendar" */;
+			buildPhases = (
+				886005E7CA435B0E02B5E8834840AB7B /* Sources */,
+				3A157FC54B6D2FAEEB284F08C1FAAB4F /* Frameworks */,
+				BB6F8A0025DD096F4CB9E3326B8A7706 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTCalendar;
+			productName = JTCalendar;
+			productReference = EEC5F4B37ABB628D6F29A647EFB88328 /* libJTCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E60ADECECFFD40E279B344B17031AD76 /* UIImage+ImageWithColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E538EF02B79AC22BB6D04F095695A66 /* Build configuration list for PBXNativeTarget "UIImage+ImageWithColor" */;
+			buildPhases = (
+				AEE4ADAAE7D5CFCA69A7B2E6486FA912 /* Sources */,
+				3F57EE98977F3A4189490F3F699BC249 /* Frameworks */,
+				516F25EF95D6A8C21EE0576F3DF0B614 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage+ImageWithColor";
+			productName = "UIImage+ImageWithColor";
+			productReference = 3131F350DD401D2987BA4896377AFC32 /* libUIImage+ImageWithColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACABDDD53049FF494333AA35F2BA7BF8 /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildPhases = (
+				FE7B08D6B2E1B8009D5AD5096723B2DF /* Sources */,
+				1CA9E4B06AF82B7C67DC302218579D08 /* Frameworks */,
+				F76C84D031AB738E21FC91B86C76B41A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexColors;
+			productName = HexColors;
+			productReference = 5AF2C02501F8F31BDCF0D9BB7EF7F6DB /* libHexColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42F75CB3ECB6D1AF9082A1E58D81995C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */,
+				C3AD7E342840A1BEA026D1D3A2D9C1A7 /* JTCalendar */,
+				53480ED0BE09FF49E34B1702D485CAAB /* Masonry */,
+				4DB6CCE16BC36324581F822B3F56AB88 /* Pods-大姨吗 */,
+				AE9B55C4804E23F9345A7D403AFBF1D5 /* pop */,
+				6DDAEDE217E2586A4BFF0AB184E4E63D /* PopMenu */,
+				E60ADECECFFD40E279B344B17031AD76 /* UIImage+ImageWithColor */,
+				9CB478DC5A44CF26B12D076D686C06EF /* XHRealTimeBlur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C20691238AD019255A5FB961D97539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57547311CC6B5E757E2FDE2411E2B112 /* pop-dummy.m in Sources */,
+				C1EF819A9095EF1D18FF1BAEBCA59551 /* POPAnimatableProperty.mm in Sources */,
+				485A4943E494E43A54B5A8AE4988D774 /* POPAnimation.mm in Sources */,
+				C6996690F194FAB85466364F91717F92 /* POPAnimationEvent.mm in Sources */,
+				016BA4BE0A42F484470837471F132D17 /* POPAnimationExtras.mm in Sources */,
+				41638B8420EBA60388C0E266A3F8823F /* POPAnimationRuntime.mm in Sources */,
+				B5817B9F81DF17205D61B04E3DB027D9 /* POPAnimationTracer.mm in Sources */,
+				9CE52A1EAB83A08A4B9404422CF0F557 /* POPAnimator.mm in Sources */,
+				065470DF652C9BD61FC446FA957D39B3 /* POPBasicAnimation.mm in Sources */,
+				0112EA56835F63CC622818B586ABFD46 /* POPCGUtils.mm in Sources */,
+				08D26C7366BE7B78FBB56C514582B337 /* POPCustomAnimation.mm in Sources */,
+				6DED9EA75A6DD1D52B833BF177B47A85 /* POPDecayAnimation.mm in Sources */,
+				FF8247C792CFF5385EF39AD9F9D33D0B /* POPGeometry.mm in Sources */,
+				4BF7BEF815047A49EA9340352FE0404C /* POPLayerExtras.mm in Sources */,
+				D761899C727A8EC776B6004F74EA33DB /* POPMath.mm in Sources */,
+				04A76709EE5BB3A327A51BCC4C44F45B /* POPPropertyAnimation.mm in Sources */,
+				011D5AF259AEE390AF39E09765C6973A /* POPSpringAnimation.mm in Sources */,
+				3CCE213EAE119627A2FB7D4C6603847F /* POPVector.mm in Sources */,
+				F490CEF6407392E49F27713D6FC8F925 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B157CD188E2A2A7DF34437A8145D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1141356137CC557E25AA95B83962F6B /* Pods-大姨吗-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886005E7CA435B0E02B5E8834840AB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382C4C19629155EDA7D0186475BCC04A /* JTCalendar-dummy.m in Sources */,
+				99253DC7829CA8D9874F0E0AA7A9AE2F /* JTCalendarDayView.m in Sources */,
+				D3D29E390B4B407CCD220B4F0842AD14 /* JTCalendarDelegateManager.m in Sources */,
+				0E330EE7DC1E1266DAC29510C553CF55 /* JTCalendarManager.m in Sources */,
+				67CF939ADF7F27345C861D28E57EB29E /* JTCalendarMenuView.m in Sources */,
+				A61D96D89F1DE6FCE162C38DB51C22F3 /* JTCalendarPageView.m in Sources */,
+				78108C0C0349E286C4DBD1F0F8158820 /* JTCalendarScrollManager.m in Sources */,
+				09EF9593BEFE8076642BDAF465470F89 /* JTCalendarSettings.m in Sources */,
+				EB244A1717AE69784B9B2E0E45EFED77 /* JTCalendarWeekDayView.m in Sources */,
+				4FC25108739F9E0C7259776D97A1336A /* JTCalendarWeekView.m in Sources */,
+				65D13D4E0D034836C35C629BED24DB25 /* JTDateHelper.m in Sources */,
+				10CD137E4CDFCD5819F196C6FD3485D4 /* JTHorizontalCalendarView.m in Sources */,
+				0FB0AF668D6FCCACCD066E3C19618288 /* JTVerticalCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3156CE3D39B35A56126BB01280D964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE51C8014C0BD13EE48221C04C234832 /* GlowImageView.m in Sources */,
+				7923E8C6CD9ECDBFEE167D02EC378556 /* MenuButton.m in Sources */,
+				AE68768EBDC1DBDD5569AFB0D90506D3 /* MenuItem.m in Sources */,
+				AC2EA392397A55DB230E3E03B5DC02CA /* PopMenu-dummy.m in Sources */,
+				4E6C4442DAC154193E336AEF8B9D58DB /* PopMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE4ADAAE7D5CFCA69A7B2E6486FA912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D519016691DC35125707B2E4AFA3C267 /* UIImage+ImageWithColor-dummy.m in Sources */,
+				88B75446C2C6FA3166BAF10D6A897963 /* UIImage+ImageWithColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8579C657135E3C32AB580A48C6D524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD4B362C6194513150915437754E2D4 /* MASCompositeConstraint.m in Sources */,
+				BE024118D329F8F566BD1811A1DC16CB /* MASConstraint.m in Sources */,
+				335DCBC17D2469F228020EF6C7B41F7C /* MASConstraintMaker.m in Sources */,
+				BDD210D7537DD15CFE59AE126005E5F8 /* MASLayoutConstraint.m in Sources */,
+				81599471BAB0420D54E1ADF8507A5113 /* Masonry-dummy.m in Sources */,
+				A44AF130E4C5313CD193D9BF68853026 /* MASViewAttribute.m in Sources */,
+				E6B49FBCE3957DB67F691ACCC4CAF4BE /* MASViewConstraint.m in Sources */,
+				5457FCC2699281B5A4203BA1559F593F /* NSArray+MASAdditions.m in Sources */,
+				D3D9F12613E23AD64C1FA5F7081A3668 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				81403CAF6C4C1D3DC8B199289C3A6F59 /* View+MASAdditions.m in Sources */,
+				AF62B956405F7734F5A9B8F3FD4B1B96 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE95A1B1009DD8822FF0990F0C5E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E245C1FF4EC5B7DAE11EE28C93253FDF /* XHRealTimeBlur-dummy.m in Sources */,
+				49D0CE58718C7F01B9E2DB94E0632709 /* XHRealTimeBlur.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B08D6B2E1B8009D5AD5096723B2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D57F2D5026472A990CBDA9BF1AB72 /* HexColor.m in Sources */,
+				B156B6156AD56216B48A15118520BC24 /* HexColors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28D2BBAA0731915C6C857995FBCD5918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopMenu;
+			target = 6DDAEDE217E2586A4BFF0AB184E4E63D /* PopMenu */;
+			targetProxy = F856B5E63641483D1E1404CC4C0AF9C2 /* PBXContainerItemProxy */;
+		};
+		3787D575B570F44248C7F5BBA71FC6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = AE9B55C4804E23F9345A7D403AFBF1D5 /* pop */;
+			targetProxy = 928DA2B08BF6A3C176FD29FFB7EB0B34 /* PBXContainerItemProxy */;
+		};
+		41D4D8C8DDC37FC02711BD13E9F5A37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = AE9B55C4804E23F9345A7D403AFBF1D5 /* pop */;
+			targetProxy = 090D833DC0D51234878F76616F64DC42 /* PBXContainerItemProxy */;
+		};
+		6300B8C10321F8B6C0B881C20FBCF9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTCalendar;
+			target = C3AD7E342840A1BEA026D1D3A2D9C1A7 /* JTCalendar */;
+			targetProxy = BDBDCF469BB966F7667C88E5D205DB19 /* PBXContainerItemProxy */;
+		};
+		75BD8E275236613AFC226F338CEFF421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */;
+			targetProxy = 548A3EA07D1329B5CB0ECBD3D0529E54 /* PBXContainerItemProxy */;
+		};
+		827FE8405EDB934D18843B24CDD569F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XHRealTimeBlur;
+			target = 9CB478DC5A44CF26B12D076D686C06EF /* XHRealTimeBlur */;
+			targetProxy = 7627B22F4910FC244A302B4FDE52A411 /* PBXContainerItemProxy */;
+		};
+		8A9095A97C8178CB8D16C296F188849C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XHRealTimeBlur;
+			target = 9CB478DC5A44CF26B12D076D686C06EF /* XHRealTimeBlur */;
+			targetProxy = F8AB5E6240006E185C3D4175147CE7FF /* PBXContainerItemProxy */;
+		};
+		A1ED8CA37FD8157BC4674565ECAA2A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+ImageWithColor";
+			target = E60ADECECFFD40E279B344B17031AD76 /* UIImage+ImageWithColor */;
+			targetProxy = 55A1D022D8E26013369B426CDBF03B38 /* PBXContainerItemProxy */;
+		};
+		AFE741155C92E26D64301C765BB5CFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 53480ED0BE09FF49E34B1702D485CAAB /* Masonry */;
+			targetProxy = 8889C5CA0C9D13580C452A8552E9D3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ADEF557E3D734DA380495E0A0653164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA047162F4FB5118F2D051A248162308 /* HexColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14C4D1025F101CB575EB19D9FAC2F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B908CEBB2D56C139B68D13B8DD1477 /* Pods-大姨吗.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1E2D5619944E08051E9DB352BE283500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15504AED7AAD907B4917F9955126B2F3 /* XHRealTimeBlur.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XHRealTimeBlur/XHRealTimeBlur-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2CAA608701ABCEF0014BAA422411580E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B6428CFA92876BD26D13F67E89D1B2 /* JTCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DAE732D13CB652A1ECC83370B3C00E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2466BD9691EF5FE051AAA5DC514B96 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		33B3CD672992417E966E725562A1BE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FC3C5EE0929F5D87423551D880D367 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5341FBAE79A038DE4BEFA3353AB5C6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F83E9BE42A1D8EEC7C4C3EA340368BD /* UIImage+ImageWithColor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+ImageWithColor/UIImage+ImageWithColor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59B7C30EAE897BE2EDE14A9B0CABCA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F83E9BE42A1D8EEC7C4C3EA340368BD /* UIImage+ImageWithColor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+ImageWithColor/UIImage+ImageWithColor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		903FBF203C5658B140DF3CBEF5D2090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2466BD9691EF5FE051AAA5DC514B96 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97D6F6BECD5E1005A8138B30A3884E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15504AED7AAD907B4917F9955126B2F3 /* XHRealTimeBlur.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XHRealTimeBlur/XHRealTimeBlur-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A43F91E701573DEF4A5C4B5253E54B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FC3C5EE0929F5D87423551D880D367 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA2561403183A26FA8C92AFB8FCC5A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B6428CFA92876BD26D13F67E89D1B2 /* JTCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BEC16AEAF7F4B688FA4453FA0B6D0C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1B10BBB55FE7701AD0144A81D815DE /* PopMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopMenu/PopMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F2C6AA473434829B4DCE7AE2201C9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA047162F4FB5118F2D051A248162308 /* HexColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8C54D4891ECDAA6138C70AA39BEABB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1B10BBB55FE7701AD0144A81D815DE /* PopMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopMenu/PopMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCE60FF15339B7AD1132364AAB33F9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0E46295C541568F72A881B7FE00A06 /* Pods-大姨吗.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBA1EAE056B2C795643249A64FD2CB5 /* Build configuration list for PBXNativeTarget "PopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC16AEAF7F4B688FA4453FA0B6D0C92 /* Debug */,
+				F8C54D4891ECDAA6138C70AA39BEABB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E538EF02B79AC22BB6D04F095695A66 /* Build configuration list for PBXNativeTarget "UIImage+ImageWithColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5341FBAE79A038DE4BEFA3353AB5C6C5 /* Debug */,
+				59B7C30EAE897BE2EDE14A9B0CABCA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ED4B2FDE824C1F47E2FD36E48BC289 /* Build configuration list for PBXNativeTarget "XHRealTimeBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2D5619944E08051E9DB352BE283500 /* Debug */,
+				97D6F6BECD5E1005A8138B30A3884E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EAA5712C6816A162C8ADFC8F2D3993 /* Build configuration list for PBXNativeTarget "JTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAA608701ABCEF0014BAA422411580E /* Debug */,
+				AA2561403183A26FA8C92AFB8FCC5A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B886401C9C49E586D997999E819A17B /* Build configuration list for PBXNativeTarget "Pods-大姨吗" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE60FF15339B7AD1132364AAB33F9D0 /* Debug */,
+				14C4D1025F101CB575EB19D9FAC2F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACABDDD53049FF494333AA35F2BA7BF8 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C6AA473434829B4DCE7AE2201C9029 /* Debug */,
+				0ADEF557E3D734DA380495E0A0653164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6653DB75D219E078020C341A7D83ECE /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAE732D13CB652A1ECC83370B3C00E5 /* Debug */,
+				903FBF203C5658B140DF3CBEF5D2090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C251FA2C3D3713487C24A323129C8687 /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43F91E701573DEF4A5C4B5253E54B80 /* Debug */,
+				33B3CD672992417E966E725562A1BE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

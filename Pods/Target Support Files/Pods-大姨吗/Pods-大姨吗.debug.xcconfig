@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/JTCalendar" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/PopMenu" "${PODS_ROOT}/Headers/Public/UIImage+ImageWithColor" "${PODS_ROOT}/Headers/Public/XHRealTimeBlur" "${PODS_ROOT}/Headers/Public/pop"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/HexColors" "$PODS_CONFIGURATION_BUILD_DIR/JTCalendar" "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/PopMenu" "$PODS_CONFIGURATION_BUILD_DIR/UIImage+ImageWithColor" "$PODS_CONFIGURATION_BUILD_DIR/XHRealTimeBlur" "$PODS_CONFIGURATION_BUILD_DIR/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HexColors" -isystem "${PODS_ROOT}/Headers/Public/JTCalendar" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/PopMenu" -isystem "${PODS_ROOT}/Headers/Public/UIImage+ImageWithColor" -isystem "${PODS_ROOT}/Headers/Public/XHRealTimeBlur" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HexColors" -l"JTCalendar" -l"Masonry" -l"PopMenu" -l"UIImage+ImageWithColor" -l"XHRealTimeBlur" -l"c++" -l"pop" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
